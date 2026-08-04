@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="95" fill="#2E7D32" stroke="#1B5E20" stroke-width="3"/>
+  <text x="100" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="white">ASOBSI</text>
+  <text x="100" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#A5D6A7">Asosiasi Bank Sampah</text>
+  <text x="100" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#A5D6A7">Indonesia</text>
+</svg>
