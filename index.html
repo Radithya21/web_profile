@@ -1,61 +1,307 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BSU Ampang Saiyo - Bank Sampah Unit Ampang Saiyo Mandiri</title>
-  <meta name="description" content="BSU Ampang Saiyo Mandiri - Memilah Sampah Menjadi Berharga. Motor penggerak pengelolaan sampah berbasis masyarakat di Kelurahan Ampang, Kecamatan Kuranji, Kota Padang, Sumatera Barat." />
-  <meta name="keywords" content="bank sampah, ampang, saiyo, kuranji, padang, sumatera barat, sampah, daur ulang, ekonomi sirkular, pemilahan sampah" />
+  <title>Bank Sampah Ampang Saiyo Mandiri</title>
+  <meta name="description"
+    content="Bank Sampah Ampang Saiyo Mandiri - Memilah Sampah Menjadi Berharga. Motor penggerak pengelolaan sampah berbasis masyarakat di Kelurahan Ampang, Kecamatan Kuranji, Kota Padang, Sumatera Barat." />
+  <meta name="keywords"
+    content="bank sampah, ampang, saiyo, kuranji, padang, sumatera barat, sampah, daur ulang, ekonomi sirkular, pemilahan sampah" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <!-- SVG Sprite (hidden) -->
   <div style="display:none" aria-hidden="true">
     <svg xmlns="http://www.w3.org/2000/svg">
-      <symbol id="icon-recycle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l3-5 3 5H7a5 5 0 0 0 9.33 2.5"/><path d="M21 12l-3 5-3-5h2a5 5 0 0 0-9.33-2.5"/><path d="M12 2v3M12 19v3"/></symbol>
-      <symbol id="icon-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.5 2 7A10 10 0 0 1 11 20z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
-      <symbol id="icon-handshake" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 17a4 4 0 0 0 4.72.5L21 14a2 2 0 0 0-2.83-2.83L16 13"/><path d="M13 17l-1.5 1.5a4 4 0 0 1-5.66-5.66L8 10.72"/><path d="M7 11l2-2 5 5-2 2"/><path d="M15.5 6.5l2 2"/><path d="M2 21l4-4"/></symbol>
-      <symbol id="icon-digital" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/><path d="M9 7h6M9 11h4"/></symbol>
-      <symbol id="icon-sprout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M10 20c5.5-2.5 5-14 0-14"/><path d="M14 20C8.5 17.5 9 6 14 6"/><path d="M11 9a4 4 0 0 1 4-4"/></symbol>
-      <symbol id="icon-house" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></symbol>
-      <symbol id="icon-walk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4" r="1.5"/><path d="M9 9l1.5 2.5L8 16"/><path d="M15 9l-1.5 2.5L16 16"/><path d="M10.5 11.5l3 1"/><path d="M9 22l1.5-6"/><path d="M15 22l-1.5-6"/></symbol>
-      <symbol id="icon-scale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M8 21h8"/><path d="M5 7l7-4 7 4"/><path d="M5 7l3 6a4 4 0 0 0 8 0l3-6"/></symbol>
-      <symbol id="icon-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></symbol>
-      <symbol id="icon-recycle2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><polyline points="23 20 23 14 17 14"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></symbol>
-      <symbol id="icon-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18"/><path d="M9 21V9"/><path d="M7 6h.01M12 6h.01M17 6h.01"/><path d="M12 13h.01M12 17h.01M16 13h.01M16 17h.01"/></symbol>
-      <symbol id="icon-van" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="7" width="22" height="11" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M5 12h4M13 12h6"/></symbol>
-      <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
-      <symbol id="icon-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></symbol>
-      <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
-      <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
-      <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1 19.79 19.79 0 0 1 1.61 4.48 2 2 0 0 1 3.6 2.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17z"/></symbol>
-      <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/></symbol>
-      <symbol id="icon-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></symbol>
-      <symbol id="icon-arrow-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></symbol>
-      <symbol id="icon-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></symbol>
-      <symbol id="icon-govt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l9-7 9 7v11H3z"/><path d="M9 21v-6h6v6"/><path d="M3 10h18"/></symbol>
-      <symbol id="icon-grad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
-      <symbol id="icon-lightning" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
-      <symbol id="icon-partner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
-      <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
-      <symbol id="icon-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
-      <symbol id="icon-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></symbol>
-      <symbol id="icon-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
-      <symbol id="icon-gift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></symbol>
-      <symbol id="icon-people" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
-      <symbol id="icon-trash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></symbol>
-      <symbol id="icon-savings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3.5 5.5L8 20h8l-.5-5.5C17.5 13.5 19 11.5 19 9a7 7 0 0 0-7-7z"/><path d="M9 20h6"/><path d="M10 9h4M12 7v4"/></symbol>
-      <symbol id="icon-village" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l5-4 5 4v12"/><path d="M13 21V12l4-3 4 3v9"/><path d="M3 21h18"/><path d="M6 12h4M6 16h4"/></symbol>
-      <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
-      <symbol id="icon-trending" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></symbol>
-      <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
-      <symbol id="icon-image" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></symbol>
-      <symbol id="icon-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
-      <symbol id="icon-laptop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 8h10M7 12h6"/></symbol>
+      <symbol id="icon-recycle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 12l3-5 3 5H7a5 5 0 0 0 9.33 2.5" />
+        <path d="M21 12l-3 5-3-5h2a5 5 0 0 0-9.33-2.5" />
+        <path d="M12 2v3M12 19v3" />
+      </symbol>
+      <symbol id="icon-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.5 2 7A10 10 0 0 1 11 20z" />
+        <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+      </symbol>
+      <symbol id="icon-handshake" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 17a4 4 0 0 0 4.72.5L21 14a2 2 0 0 0-2.83-2.83L16 13" />
+        <path d="M13 17l-1.5 1.5a4 4 0 0 1-5.66-5.66L8 10.72" />
+        <path d="M7 11l2-2 5 5-2 2" />
+        <path d="M15.5 6.5l2 2" />
+        <path d="M2 21l4-4" />
+      </symbol>
+      <symbol id="icon-digital" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="5" y="2" width="14" height="20" rx="2" />
+        <path d="M12 18h.01" />
+        <path d="M9 7h6M9 11h4" />
+      </symbol>
+      <symbol id="icon-sprout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 20h10" />
+        <path d="M10 20c5.5-2.5 5-14 0-14" />
+        <path d="M14 20C8.5 17.5 9 6 14 6" />
+        <path d="M11 9a4 4 0 0 1 4-4" />
+      </symbol>
+      <symbol id="icon-house" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+        <polyline points="9,22 9,12 15,12 15,22" />
+      </symbol>
+      <symbol id="icon-compass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+      </symbol>
+      <symbol id="icon-walk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="4" r="1.5" />
+        <path d="M9 9l1.5 2.5L8 16" />
+        <path d="M15 9l-1.5 2.5L16 16" />
+        <path d="M10.5 11.5l3 1" />
+        <path d="M9 22l1.5-6" />
+        <path d="M15 22l-1.5-6" />
+      </symbol>
+      <symbol id="icon-scale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3v18" />
+        <path d="M8 21h8" />
+        <path d="M5 7l7-4 7 4" />
+        <path d="M5 7l3 6a4 4 0 0 0 8 0l3-6" />
+      </symbol>
+      <symbol id="icon-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="9" cy="21" r="1" />
+        <circle cx="20" cy="21" r="1" />
+        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+      </symbol>
+      <symbol id="icon-recycle2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="1 4 1 10 7 10" />
+        <polyline points="23 20 23 14 17 14" />
+        <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15" />
+      </symbol>
+      <symbol id="icon-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="1" />
+        <path d="M3 9h18" />
+        <path d="M9 21V9" />
+        <path d="M7 6h.01M12 6h.01M17 6h.01" />
+        <path d="M12 13h.01M12 17h.01M16 13h.01M16 17h.01" />
+      </symbol>
+      <symbol id="icon-van" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="1" y="7" width="22" height="11" rx="2" />
+        <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+        <circle cx="7" cy="18" r="2" />
+        <circle cx="17" cy="18" r="2" />
+        <path d="M5 12h4M13 12h6" />
+      </symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" />
+        <line x1="16" y1="2" x2="16" y2="6" />
+        <line x1="8" y1="2" x2="8" y2="6" />
+        <line x1="3" y1="10" x2="21" y2="10" />
+      </symbol>
+      <symbol id="icon-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
+        <line x1="8" y1="2" x2="8" y2="18" />
+        <line x1="16" y1="6" x2="16" y2="22" />
+      </symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+        <circle cx="12" cy="10" r="3" />
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1 19.79 19.79 0 0 1 1.61 4.48 2 2 0 0 1 3.6 2.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17z" />
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="9 12 11 14 15 10" />
+      </symbol>
+      <symbol id="icon-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15" />
+      </symbol>
+      <symbol id="icon-arrow-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9" />
+      </symbol>
+      <symbol id="icon-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6" />
+      </symbol>
+      <symbol id="icon-govt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 21V10l9-7 9 7v11H3z" />
+        <path d="M9 21v-6h6v6" />
+        <path d="M3 10h18" />
+      </symbol>
+      <symbol id="icon-grad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+        <path d="M6 12v5c3 3 9 3 12 0v-5" />
+      </symbol>
+      <symbol id="icon-lightning" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+      </symbol>
+      <symbol id="icon-partner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path
+          d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </symbol>
+      <symbol id="icon-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <circle cx="12" cy="12" r="6" />
+        <circle cx="12" cy="12" r="2" />
+      </symbol>
+      <symbol id="icon-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+        <circle cx="12" cy="12" r="3" />
+      </symbol>
+      <symbol id="icon-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="8" r="7" />
+        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+      </symbol>
+      <symbol id="icon-gift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 12 20 22 4 22 4 12" />
+        <rect x="2" y="7" width="20" height="5" />
+        <line x1="12" y1="22" x2="12" y2="7" />
+        <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z" />
+        <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z" />
+      </symbol>
+      <symbol id="icon-people" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      </symbol>
+      <symbol id="icon-trash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="3 6 5 6 21 6" />
+        <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
+        <path d="M10 11v6M14 11v6" />
+        <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2" />
+      </symbol>
+      <symbol id="icon-savings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3.5 5.5L8 20h8l-.5-5.5C17.5 13.5 19 11.5 19 9a7 7 0 0 0-7-7z" />
+        <path d="M9 20h6" />
+        <path d="M10 9h4M12 7v4" />
+      </symbol>
+      <symbol id="icon-village" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 21V9l5-4 5 4v12" />
+        <path d="M13 21V12l4-3 4 3v9" />
+        <path d="M3 21h18" />
+        <path d="M6 12h4M6 16h4" />
+      </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M2 12h20" />
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+      </symbol>
+      <symbol id="icon-trending" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+        <polyline points="17 6 23 6 23 12" />
+      </symbol>
+      <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18" />
+        <line x1="6" y1="6" x2="18" y2="18" />
+      </symbol>
+      <symbol id="icon-image" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="2" />
+        <circle cx="8.5" cy="8.5" r="1.5" />
+        <polyline points="21 15 16 10 5 21" />
+      </symbol>
+      <symbol id="icon-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polygon
+          points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+      </symbol>
+      <symbol id="icon-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 3z" />
+      </symbol>
+      <symbol id="icon-mountain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 3l4 8 5-5 5 15H2L8 3z" />
+        <path d="M4.14 15.08L8 11l2 2" />
+      </symbol>
+      <symbol id="icon-sun-warning" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5" />
+        <line x1="12" y1="1" x2="12" y2="3" />
+        <line x1="12" y1="21" x2="12" y2="23" />
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+        <line x1="1" y1="12" x2="3" y2="12" />
+        <line x1="21" y1="12" x2="23" y2="12" />
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+      </symbol>
+      <symbol id="icon-cloud-rain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <line x1="16" y1="13" x2="16" y2="21" />
+        <line x1="8" y1="13" x2="8" y2="21" />
+        <line x1="12" y1="15" x2="12" y2="23" />
+        <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25" />
+      </symbol>
+      <symbol id="icon-waves" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+        <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+        <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+      </symbol>
+      <symbol id="icon-id-card" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="16" rx="2" />
+        <circle cx="9" cy="10" r="2" />
+        <line x1="15" y1="8" x2="19" y2="8" />
+        <line x1="15" y1="12" x2="19" y2="12" />
+        <path d="M6 16c0-2 1.5-3 3-3s3 1 3 3" />
+      </symbol>
+      <symbol id="icon-laptop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="3" width="20" height="14" rx="2" />
+        <path d="M8 21h8M12 17v4" />
+        <path d="M7 8h10M7 12h6" />
+      </symbol>
     </svg>
   </div>
 
@@ -63,9 +309,9 @@
   <header class="navbar" id="navbar">
     <div class="container nav-container">
       <a href="#beranda" class="nav-logo" id="nav-logo">
-        <img src="images/logo_bsu.png" alt="Logo BSU Ampang Saiyo" class="logo-img" />
+        <img src="images/logo_bsu.png" alt="Logo Bank Sampah Ampang Saiyo Mandiri" class="logo-img" />
         <div class="logo-text">
-          <span class="logo-title">BSU Ampang Saiyo</span>
+          <span class="logo-title">Bank Sampah Ampang Saiyo Mandiri</span>
           <span class="logo-subtitle">Bank Sampah Unit - Padang</span>
         </div>
       </a>
@@ -93,24 +339,99 @@
     </div>
     <div class="hero-particles" id="hero-particles"></div>
     <div class="container hero-content">
-      <div class="hero-badge"><span class="badge-dot"></span> Kelurahan Ampang, Kuranji – Kota Padang</div>
-      <h1 class="hero-title">Memilah Sampah<br/><em>Menjadi Berharga</em></h1>
-      <p class="hero-desc">BSU Ampang Saiyo Mandiri hadir sebagai motor penggerak pengelolaan sampah berbasis masyarakat. Ubah sampahmu menjadi nilai ekonomi nyata bagi keluarga dan lingkungan.</p>
+      <div class="hero-badge"><span class="badge-dot"></span> kecamatan Kuranji – Kota Padang</div>
+      <h1 class="hero-title">Memilah Sampah<br /><em>Menjadi Berharga</em></h1>
+      <p class="hero-desc">Bank Sampah Ampang Saiyo Mandiri hadir sebagai motor penggerak pengelolaan sampah berbasis
+        masyarakat. Ubah sampah menjadi nilai ekonomi nyata bagi keluarga dan lingkungan.</p>
       <div class="hero-actions">
         <a href="#layanan" class="btn btn-primary" id="hero-cta-layanan">Lihat Layanan</a>
         <a href="#tentang" class="btn btn-outline" id="hero-cta-tentang">Tentang Kami</a>
       </div>
       <div class="hero-stats">
-        <div class="hero-stat" id="hstat-1"><span class="hero-stat-num" data-count="175">0</span><span class="hero-stat-suffix">+</span><span class="hero-stat-label">Nasabah Aktif</span></div>
+        <div class="hero-stat" id="hstat-1"><span class="hero-stat-num" data-count="187">0</span><span
+            class="hero-stat-suffix">+</span><span class="hero-stat-label">Nasabah Aktif</span></div>
         <div class="hero-stat-divider"></div>
-        <div class="hero-stat" id="hstat-2"><span class="hero-stat-num" data-count="1">0</span><span class="hero-stat-suffix"> Ton</span><span class="hero-stat-label">Sampah Terkelola / Bulan</span></div>
+        <div class="hero-stat" id="hstat-2"><span class="hero-stat-num" data-count="1-2">0</span><span
+            class="hero-stat-suffix"> Ton</span><span class="hero-stat-label">Sampah Terkelola / Bulan</span></div>
         <div class="hero-stat-divider"></div>
-        <div class="hero-stat" id="hstat-3"><span class="hero-stat-num" data-count="15">0</span><span class="hero-stat-suffix"> Jenis</span><span class="hero-stat-label">Sampah Diterima</span></div>
+        <div class="hero-stat" id="hstat-3"><span class="hero-stat-num" data-count="15">0</span><span
+            class="hero-stat-suffix"> Jenis</span><span class="hero-stat-label">Sampah Diterima</span></div>
       </div>
     </div>
-    <div class="hero-scroll-indicator"><span>Scroll ke bawah</span><div class="scroll-arrow"><svg class="icon"><use href="#icon-arrow-down"/></svg></div></div>
+    <div class="hero-scroll-indicator"><span>Scroll ke bawah</span>
+      <div class="scroll-arrow"><svg class="icon">
+          <use href="#icon-arrow-down" />
+        </svg></div>
+    </div>
     <div class="wave-divider bottom">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 C360,60 1080,60 1440,0 L1440,60 L0,60 Z" fill="var(--white)"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C360,60 1080,60 1440,0 L1440,60 L0,60 Z" fill="var(--white)" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== AYAT QURAN ===== -->
+  <section class="section-quran" id="quran">
+    <div class="container">
+      <div class="quran-card animate-on-scroll visible">
+        <div class="quran-ornament-top"></div>
+        <div class="quran-icon">
+          <svg viewBox="0 0 64 64" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M32 4C18 4 8 14 8 28c0 10 6 18 14 22v10l10-8 10 8V50c8-4 14-12 14-22C56 14 46 4 32 4z" />
+            <path d="M24 24h16M24 32h12M24 40h8" stroke-linecap="round" />
+          </svg>
+        </div>
+        <blockquote class="quran-text">
+          "Dan negeri yang baik, tanaman-tanamannya tumbuh subur dengan izin Tuhan-nya; dan negeri yang buruk,
+          tanaman-tanamannya hanya tumbuh merana. Demikianlah Kami menjelaskan berulang-ulang tanda-tanda (kebesaran
+          Kami) bagi orang-orang yang bersyukur."
+        </blockquote>
+        <cite class="quran-cite">— QS. Al-A'raf : 58</cite>
+        <div class="quran-ornament-bottom"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PENGHARGAAN ===== -->
+  <section class="section-penghargaan" id="penghargaan">
+    <div class="container">
+      <div class="section-header" id="penghargaan-header">
+        <div class="section-label">Penghargaan & Prestasi</div>
+        <h2 class="section-title">Apresiasi untuk Bank Sampah<br />Ampang Saiyo Mandiri</h2>
+        <p class="section-desc">Berbagai penghargaan yang telah diraih sebagai bukti komitmen dan dedikasi dalam pengelolaan sampah berbasis masyarakat.</p>
+      </div>
+      <div class="penghargaan-grid" id="penghargaan-grid">
+        <div class="penghargaan-card animate-on-scroll" id="award-1">
+          <div class="penghargaan-icon" style="background: none; border-radius: 0; width: 100%; height: 180px; margin-bottom: 1rem; overflow: hidden;">
+            <img src="images/community_activity.png" alt="Penghargaan 1" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md);" />
+          </div>
+          <div class="penghargaan-content">
+            <h4>Penghargaan 1</h4>
+            <p class="penghargaan-year">2023</p>
+            <p class="penghargaan-desc">Deskripsi penghargaan dummy.</p>
+          </div>
+        </div>
+        <div class="penghargaan-card animate-on-scroll" id="award-2">
+          <div class="penghargaan-icon" style="background: none; border-radius: 0; width: 100%; height: 180px; margin-bottom: 1rem; overflow: hidden;">
+            <img src="images/manfaat_komunitas.jpg" alt="Penghargaan 2" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md);" />
+          </div>
+          <div class="penghargaan-content">
+            <h4>Penghargaan 2</h4>
+            <p class="penghargaan-year">2024</p>
+            <p class="penghargaan-desc">Deskripsi penghargaan dummy.</p>
+          </div>
+        </div>
+        <div class="penghargaan-card animate-on-scroll" id="award-3">
+          <div class="penghargaan-icon" style="background: none; border-radius: 0; width: 100%; height: 180px; margin-bottom: 1rem; overflow: hidden;">
+            <img src="images/program_padangmemilah.png" alt="Penghargaan 3" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md);" />
+          </div>
+          <div class="penghargaan-content">
+            <h4>Penghargaan 3</h4>
+            <p class="penghargaan-year">2025</p>
+            <p class="penghargaan-desc">Deskripsi penghargaan dummy.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -119,35 +440,52 @@
     <div class="container">
       <div class="section-header" id="visimisi-header">
         <div class="section-label">Visi & Misi</div>
-        <h2 class="section-title">Arah Langkah Kami</h2>
+        <h2 class="section-title">Arah Langkah Bank Sampah Ampang Saiyo Mandiri</h2>
       </div>
       <div class="visimisi-grid">
         <div class="visimisi-card visi-card" id="visi-card">
-          <div class="visimisi-icon"><svg class="icon icon-xl"><use href="#icon-eye"/></svg></div>
+          <div class="visimisi-icon"><svg class="icon icon-xl">
+              <use href="#icon-eye" />
+            </svg></div>
           <h3>Visi</h3>
-          <p>Mewujudkan Kelurahan Ampang yang bersih, sehat, dan berdaya melalui pengelolaan sampah berbasis masyarakat yang berkelanjutan serta berkontribusi pada ekonomi sirkular.</p>
+          <p>Mewujudkan Kelurahan Ampang yang bersih, sehat, dan berdaya melalui pengelolaan sampah berbasis masyarakat
+            yang berkelanjutan serta berkontribusi pada ekonomi sirkular.</p>
         </div>
         <div class="visimisi-card misi-card" id="misi-card">
-          <div class="visimisi-icon"><svg class="icon icon-xl"><use href="#icon-target"/></svg></div>
+          <div class="visimisi-icon"><svg class="icon icon-xl">
+              <use href="#icon-target" />
+            </svg></div>
           <h3>Misi</h3>
           <ul class="misi-list">
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Mengajak masyarakat untuk peduli sampah</li>
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Mendapatkan sampah terpilah sebanyak-banyaknya dari masyarakat</li>
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Menjadikan sampah sebagai salah satu alternatif pendapatan keluarga</li>
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Mengubah perilaku masyarakat dalam memperlakukan sampah</li>
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Melahirkan generasi masa depan Indonesia yang peduli sampah</li>
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Mewujudkan bersih diri dan bersih lingkungan dari sampah</li>
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Mencapai Indonesia merdeka sampah</li>
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Menjadikan sampah sebagai energi ramah lingkungan</li>
-            <li><svg class="icon icon-xs"><use href="#icon-check"/></svg> Merawat dan menjaga bumi dari kerusakan lingkungan</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Mengajak masyarakat untuk peduli sampah</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Mendapatkan sampah terpilah sebanyak-banyaknya dari masyarakat</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Menjadikan sampah sebagai salah satu alternatif pendapatan keluarga</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Mengubah perilaku masyarakat dalam memperlakukan sampah</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Melahirkan generasi masa depan Indonesia yang peduli sampah</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Mewujudkan bersih diri dan bersih lingkungan dari sampah</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Mencapai Indonesia merdeka sampah</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Menjadikan sampah sebagai energi ramah lingkungan</li>
+            <li><svg class="icon icon-xs">
+                <use href="#icon-check" />
+              </svg> Merawat dan menjaga bumi dari kerusakan lingkungan</li>
           </ul>
         </div>
-      </div>
-      <div class="visimisi-quote">
-        <blockquote>
-          <strong>QS. Al-A'raf : 58</strong><br/>
-          "Dan negeri yang baik, tanaman-tanamannya tumbuh subur dengan izin Tuhan-nya; dan negeri yang buruk, tanaman-tanamannya hanya tumbuh merana. Demikianlah Kami menjelaskan berulang-ulang tanda-tanda (kebesaran Kami) bagi orang-orang yang bersyukur."
-        </blockquote>
       </div>
     </div>
   </section>
@@ -155,29 +493,78 @@
   <!-- ===== LATAR BELAKANG & DARURAT SAMPAH ===== -->
   <section class="section-about" id="tentang">
     <div class="wave-divider top">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 C360,0 1080,0 1440,60 L1440,0 L0,0 Z" fill="var(--green-50)"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C360,0 1080,0 1440,60 L1440,0 L0,0 Z" fill="var(--green-50)" />
+      </svg>
     </div>
     <div class="container">
-      <!-- Earth & Disasters Infographic -->
+      <!-- Earth & Disasters Infographic + Latar Belakang -->
       <div class="earth-crisis-block" id="earth-crisis">
         <div class="section-header">
           <div class="section-label">Latar Belakang</div>
-          <h2 class="section-title">Darurat Sampah<br/>di Sekitar Kita</h2>
+          <h2 class="section-title">Latar Belakang Pendirian</h2>
+        </div>
+
+        <!-- Latar Belakang Points -->
+        <div class="latar-belakang-grid" id="latar-grid" style="margin-bottom: 4.5rem;">
+          <div class="latar-item"><span class="latar-num">01</span>
+            <p>Karang Taruna sebagai pilar sosial mengurusi <strong>26 PPKS</strong> (Pemerlu Pelayanan Kesejahteraan
+              Sosial)</p>
+          </div>
+          <div class="latar-item"><span class="latar-num">02</span>
+            <p>Masih membuang sampah sembarangan: di halaman, jalan, aliran air, tanah kosong</p>
+          </div>
+          <div class="latar-item"><span class="latar-num">03</span>
+            <p>Sampah menyumbat aliran air, menimbulkan <strong>banjir, bau,</strong> dan kerusakan bangunan</p>
+          </div>
+          <div class="latar-item"><span class="latar-num">04</span>
+            <p><strong>Mencegah lebih baik</strong> daripada menanggulangi bencana</p>
+          </div>
+          <div class="latar-item"><span class="latar-num">05</span>
+            <p>Minimnya pengetahuan dan kesadaran tentang <strong>memilah sampah</strong></p>
+          </div>
+          <div class="latar-item"><span class="latar-num">06</span>
+            <p>Meningkatnya timbunan sampah di <strong>TPA Aia Dingin</strong> Kota Padang</p>
+          </div>
+          <div class="latar-item"><span class="latar-num">07</span>
+            <p><strong>Peluang ekonomi</strong> dari sampah &amp; mengatasi pengangguran</p>
+          </div>
+          <div class="latar-item"><span class="latar-num">08</span>
+            <p>Mendorong <strong>ekonomi sirkular</strong> untuk menjaga bumi dari sampah</p>
+          </div>
+        </div>
+
+        <!-- Darurat Sampah di Sekitar Kita -->
+        <div class="section-header">
+          <div class="section-label">Krisis Lingkungan</div>
+          <h2 class="section-title">Darurat Sampah<br />di Sekitar Kita</h2>
         </div>
         <div class="earth-layout">
           <!-- Left disasters -->
           <div class="disaster-col disaster-left">
             <div class="disaster-item">
-              <div class="disaster-icon" style="background: rgba(220,53,69,0.15); color: #DC3545;">🔥</div>
-              <div><strong>Kebakaran</strong><p>Sampah mudah terbakar dan menghasilkan asap beracun yang membahayakan kesehatan</p></div>
+              <div class="disaster-icon" style="background: rgba(255,193,7,0.15); color: #E0A800;">
+                <svg class="icon icon-md"><use href="#icon-sun-warning" /></svg>
+              </div>
+              <div><strong>Pemanasan Global</strong>
+                <p>Sampah menghasilkan gas metana (CH₄) dan CO₂ yang memerangkap panas di atmosfer</p>
+              </div>
             </div>
             <div class="disaster-item">
-              <div class="disaster-icon" style="background: rgba(108,117,125,0.15); color: #6C757D;">⛰️</div>
-              <div><strong>Longsor</strong><p>Tanah menjadi tidak stabil dan mudah longsor akibat penumpukan sampah</p></div>
+              <div class="disaster-icon" style="background: rgba(220,53,69,0.15); color: #DC3545;">
+                <svg class="icon icon-md"><use href="#icon-flame" /></svg>
+              </div>
+              <div><strong>Kebakaran</strong>
+                <p>Sampah mudah terbakar dan menghasilkan asap beracun yang membahayakan kesehatan</p>
+              </div>
             </div>
             <div class="disaster-item">
-              <div class="disaster-icon" style="background: rgba(255,193,7,0.15); color: #E0A800;">💨</div>
-              <div><strong>Pemanasan Global</strong><p>Sampah menghasilkan gas metana (CH₄) dan CO₂ yang memerangkap panas di atmosfer</p></div>
+              <div class="disaster-icon" style="background: rgba(0,123,255,0.15); color: #007BFF;">
+                <svg class="icon icon-md"><use href="#icon-cloud-rain" /></svg>
+              </div>
+              <div><strong>Hujan Ekstrem</strong>
+                <p>Perubahan iklim menyebabkan curah hujan dan cuaca ekstrem meningkat drastis</p>
+              </div>
             </div>
           </div>
           <!-- Earth center -->
@@ -187,54 +574,74 @@
           <!-- Right disasters -->
           <div class="disaster-col disaster-right">
             <div class="disaster-item">
-              <div class="disaster-icon" style="background: rgba(0,123,255,0.15); color: #007BFF;">🌧️</div>
-              <div><strong>Hujan Deras</strong><p>Perubahan iklim menyebabkan curah hujan meningkat drastis</p></div>
+              <div class="disaster-icon" style="background: rgba(23,162,184,0.15); color: #17A2B8;">
+                <svg class="icon icon-md"><use href="#icon-waves" /></svg>
+              </div>
+              <div><strong>Banjir</strong>
+                <p>Sampah menyumbat aliran air, menimbulkan banjir dan kerusakan bangunan</p>
+              </div>
             </div>
             <div class="disaster-item">
-              <div class="disaster-icon" style="background: rgba(23,162,184,0.15); color: #17A2B8;">🌊</div>
-              <div><strong>Banjir</strong><p>Sampah menyumbat aliran air, menimbulkan banjir dan kerusakan bangunan</p></div>
-            </div>
-            <div class="disaster-item">
-              <div class="disaster-icon" style="background: rgba(111,66,193,0.15); color: #6F42C1;">🏭</div>
-              <div><strong>TPA Penuh</strong><p>Meningkatnya timbunan sampah di TPA Aia Dingin Kota Padang</p></div>
+              <div class="disaster-icon" style="background: rgba(108,117,125,0.15); color: #6C757D;">
+                <svg class="icon icon-md"><use href="#icon-mountain" /></svg>
+              </div>
+              <div><strong>Longsor</strong>
+                <p>Tanah menjadi tidak stabil dan mudah longsor akibat penumpukan sampah</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <!-- Latar Belakang Points -->
-        <div class="latar-belakang-grid" id="latar-grid">
-          <div class="latar-item"><span class="latar-num">01</span><p>Karang Taruna sebagai pilar sosial mengurusi <strong>26 PPKS</strong> (Pemerlu Pelayanan Kesejahteraan Sosial)</p></div>
-          <div class="latar-item"><span class="latar-num">02</span><p>Masih membuang sampah sembarangan: di halaman, jalan, aliran air, tanah kosong</p></div>
-          <div class="latar-item"><span class="latar-num">03</span><p>Sampah menyumbat aliran air, menimbulkan <strong>banjir, bau,</strong> dan kerusakan bangunan</p></div>
-          <div class="latar-item"><span class="latar-num">04</span><p><strong>Mencegah lebih baik</strong> daripada menanggulangi bencana</p></div>
-          <div class="latar-item"><span class="latar-num">05</span><p>Minimnya pengetahuan dan kesadaran tentang <strong>memilah sampah</strong></p></div>
-          <div class="latar-item"><span class="latar-num">06</span><p>Meningkatnya timbunan sampah di <strong>TPA Aia Dingin</strong> Kota Padang</p></div>
-          <div class="latar-item"><span class="latar-num">07</span><p><strong>Peluang ekonomi</strong> dari sampah & mengatasi pengangguran</p></div>
-          <div class="latar-item"><span class="latar-num">08</span><p>Mendorong <strong>ekonomi sirkular</strong> untuk menjaga bumi dari sampah</p></div>
         </div>
       </div>
 
       <!-- Tentang Kami -->
       <div class="about-grid" id="about-grid">
         <div class="about-image-wrap" id="about-img-wrap">
-          <img src="images/community_activity.png" alt="Kegiatan komunitas Bank Sampah Ampang Saiyo" class="about-img" />
+          <img src="images/community_activity.png" alt="Kegiatan komunitas Bank Sampah Ampang Saiyo Mandiri"
+            class="about-img" />
           <div class="about-img-badge"><span class="badge-year">Sejak</span><span class="badge-num">2023</span></div>
         </div>
         <div class="about-content" id="about-content">
-          <div class="section-label">Tentang Kami</div>
-          <h2 class="section-title">Dari Karang Taruna<br/>Untuk Ampang Saiyo</h2>
-          <p class="about-text">Berawal dari inisiatif <strong>Karang Taruna Ampang Saiyo</strong> yang peduli terhadap masalah sampah plastik penyebab banjir, BSU Ampang Saiyo kini tumbuh menjadi motor penggerak ekonomi sirkular berbasis masyarakat di Kota Padang.</p>
-          <p class="about-text">Kami menerapkan konsep di mana sampah yang dipilah warga memiliki <strong>nilai ekonomis nyata</strong> — dikonversi menjadi tabungan atau kebutuhan pokok. Dengan dukungan berbagai pihak termasuk akademisi Universitas Andalas dan PLN, kami terus berinovasi untuk lingkungan yang lebih bersih.</p>
+          <div class="section-label">Tentang Bank Sampah Ampang Saiyo Mandiri</div>
+          <h2 class="section-title">Dari Karang Taruna<br />Untuk Ampang Saiyo</h2>
+          <p class="about-text">Berawal dari inisiatif <strong>Karang Taruna Ampang Saiyo</strong> yang peduli terhadap
+            masalah sampah plastik penyebab banjir, Bank Sampah Ampang Saiyo Mandiri kini tumbuh menjadi motor penggerak ekonomi
+            sirkular berbasis masyarakat di Kota Padang.</p>
+          <p class="about-text">Bank Sampah Ampang Saiyo Mandiri menerapkan konsep di mana sampah yang dipilah warga memiliki
+            <strong>nilai ekonomis nyata</strong> — dikonversi menjadi tabungan atau kebutuhan pokok. Dengan dukungan
+            berbagai pihak, Bank Sampah Ampang Saiyo Mandiri terus berinovasi untuk lingkungan yang lebih bersih.</p>
           <div class="about-highlights">
-            <div class="highlight-item" id="hl-1"><div class="highlight-icon"><svg class="icon icon-md"><use href="#icon-leaf"/></svg></div><div><strong>Ekonomi Sirkular</strong><p>Sampah warga diubah jadi nilai ekonomi nyata</p></div></div>
-            <div class="highlight-item" id="hl-2"><div class="highlight-icon"><svg class="icon icon-md"><use href="#icon-handshake"/></svg></div><div><strong>Berbasis Komunitas</strong><p>Digerakkan oleh dan untuk masyarakat Ampang</p></div></div>
-            <div class="highlight-item" id="hl-3"><div class="highlight-icon"><svg class="icon icon-md"><use href="#icon-digital"/></svg></div><div><strong>Sistem Digital</strong><p>Pencatatan setoran sampah berbasis digital</p></div></div>
+            <div class="highlight-item" id="hl-1">
+              <div class="highlight-icon"><svg class="icon icon-md">
+                  <use href="#icon-leaf" />
+                </svg></div>
+              <div><strong>Ekonomi Sirkular</strong>
+                <p>Sampah warga diubah jadi nilai ekonomi nyata</p>
+              </div>
+            </div>
+            <div class="highlight-item" id="hl-2">
+              <div class="highlight-icon"><svg class="icon icon-md">
+                  <use href="#icon-handshake" />
+                </svg></div>
+              <div><strong>Berbasis Komunitas</strong>
+                <p>Digerakkan oleh dan untuk masyarakat Ampang</p>
+              </div>
+            </div>
+            <div class="highlight-item" id="hl-3">
+              <div class="highlight-icon"><svg class="icon icon-md">
+                  <use href="#icon-digital" />
+                </svg></div>
+              <div><strong>Sistem Digital</strong>
+                <p>Pencatatan setoran sampah berbasis digital</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="wave-divider bottom">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill="#152e18"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill="#152e18" />
+      </svg>
     </div>
   </section>
 
@@ -243,15 +650,16 @@
     <div class="container">
       <div class="section-header" id="edukasi-header">
         <div class="section-label light">Edukasi Pemilahan</div>
-        <h2 class="section-title light">Kenali Jenis Sampahmu</h2>
-        <p class="section-desc light">Langkah pertama menabung sampah adalah memilah dengan benar. Kenali 2 kategori utama sampah.</p>
+        <h2 class="section-title light">Kenali Jenis Sampah</h2>
+        <p class="section-desc light">Langkah pertama menabung sampah adalah memilah dengan benar. Kenali 2 kategori
+          utama sampah.</p>
       </div>
 
       <!-- Organik vs Anorganik with images -->
       <div class="edukasi-duo">
         <div class="edukasi-card edukasi-organik" id="edu-organik">
           <div class="edukasi-card-img">
-            <img src="images/sampah_organik.png" alt="Jenis-jenis sampah organik" />
+            <img src="images/sampah_organik.jpg" alt="Jenis-jenis sampah organik" />
           </div>
           <h3 style="color: #28A745;">🟢 Sampah Organik</h3>
           <p>Sampah yang berasal dari makhluk hidup dan dapat <strong>terurai secara alami</strong>.</p>
@@ -264,11 +672,14 @@
             <li>🌳 Dahan / Ranting</li>
             <li>🍚 Sisa makanan</li>
           </ul>
-          <div class="edukasi-tip"><svg class="icon icon-xs"><use href="#icon-sprout"/></svg> Dapat diolah menjadi <strong>kompos</strong> dan <strong>eco-enzyme</strong></div>
+          <div class="edukasi-tip"><svg class="icon icon-xs">
+              <use href="#icon-sprout" />
+            </svg> <span>Dapat diolah menjadi <strong>kompos</strong>, <strong>pupuk</strong>, dan <strong>eco-enzyme</strong></span>
+          </div>
         </div>
         <div class="edukasi-card edukasi-anorganik" id="edu-anorganik">
           <div class="edukasi-card-img">
-            <img src="images/sampah_anorganik.png" alt="Jenis-jenis sampah anorganik" />
+            <img src="images/sampah_anorganik.jpg" alt="Jenis-jenis sampah anorganik" />
           </div>
           <h3 style="color: #007BFF;">🟡 Sampah Anorganik</h3>
           <p>Sampah yang <strong>tidak mudah terurai</strong> namun dapat didaur ulang dan memiliki nilai ekonomi.</p>
@@ -282,7 +693,9 @@
             <li>🫗 Minyak jelantah</li>
             <li>🍶 Kaca</li>
           </ul>
-          <div class="edukasi-tip"><svg class="icon icon-xs"><use href="#icon-savings"/></svg> Dapat <strong>ditabung</strong> di Bank Sampah dan <strong>ditukar manfaat</strong></div>
+          <div class="edukasi-tip"><svg class="icon icon-xs">
+              <use href="#icon-savings" />
+            </svg> <span>Dapat <strong>didaur ulang</strong> di Bank Sampah dan <strong>ditukar manfaat</strong></span></div>
         </div>
       </div>
 
@@ -295,32 +708,32 @@
             <div class="tong-visual-bin">
               <svg viewBox="0 0 120 160" class="tong-bin-svg" aria-label="Tong Sampah Merah">
                 <!-- Lid -->
-                <rect x="15" y="8" width="90" height="12" rx="4" fill="#C82333"/>
-                <rect x="12" y="16" width="96" height="8" rx="3" fill="#DC3545"/>
+                <rect x="15" y="8" width="90" height="12" rx="4" fill="#C82333" />
+                <rect x="12" y="16" width="96" height="8" rx="3" fill="#DC3545" />
                 <!-- Handle -->
-                <rect x="48" y="2" width="24" height="10" rx="5" fill="none" stroke="#B71C2B" stroke-width="3"/>
+                <rect x="48" y="2" width="24" height="10" rx="5" fill="none" stroke="#B71C2B" stroke-width="3" />
                 <!-- Body -->
-                <rect x="18" y="24" width="84" height="100" rx="6" fill="#DC3545"/>
-                <rect x="18" y="24" width="84" height="100" rx="6" fill="url(#binShineRed)"/>
+                <rect x="18" y="24" width="84" height="100" rx="6" fill="#DC3545" />
+                <rect x="18" y="24" width="84" height="100" rx="6" fill="url(#binShineRed)" />
                 <!-- Recycle symbol area -->
-                <circle cx="60" cy="70" r="20" fill="rgba(255,255,255,0.15)"/>
+                <circle cx="60" cy="70" r="20" fill="rgba(255,255,255,0.15)" />
                 <text x="60" y="77" text-anchor="middle" fill="white" font-size="22" font-weight="bold">☣</text>
                 <!-- Body ridge lines -->
-                <line x1="22" y1="90" x2="98" y2="90" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-                <line x1="22" y1="100" x2="98" y2="100" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+                <line x1="22" y1="90" x2="98" y2="90" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+                <line x1="22" y1="100" x2="98" y2="100" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
                 <!-- Bottom -->
-                <rect x="20" y="120" width="80" height="6" rx="3" fill="#B71C2B"/>
+                <rect x="20" y="120" width="80" height="6" rx="3" fill="#B71C2B" />
                 <!-- Wheels -->
-                <circle cx="35" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2"/>
-                <circle cx="35" cy="134" r="3" fill="#666"/>
-                <circle cx="85" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2"/>
-                <circle cx="85" cy="134" r="3" fill="#666"/>
+                <circle cx="35" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2" />
+                <circle cx="35" cy="134" r="3" fill="#666" />
+                <circle cx="85" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2" />
+                <circle cx="85" cy="134" r="3" fill="#666" />
                 <!-- Shine gradient -->
                 <defs>
                   <linearGradient id="binShineRed" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
-                    <stop offset="40%" stop-color="rgba(255,255,255,0)"/>
-                    <stop offset="100%" stop-color="rgba(0,0,0,0.1)"/>
+                    <stop offset="0%" stop-color="rgba(255,255,255,0.15)" />
+                    <stop offset="40%" stop-color="rgba(255,255,255,0)" />
+                    <stop offset="100%" stop-color="rgba(0,0,0,0.1)" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -328,31 +741,31 @@
             <h4>Merah</h4>
             <p class="tong-label tong-label-merah">B3</p>
             <p class="tong-desc">Bahan Berbahaya dan Beracun</p>
-            <span class="tong-example">Baterai, obat kadaluarsa, lampu neon, pestisida</span>
+            <span class="tong-example">Baterai, obat kadaluarsa, lampu neon, pestisida, dan pecahan kaca</span>
           </div>
 
           <div class="tong-card" id="tong-kuning">
             <div class="tong-visual-bin">
               <svg viewBox="0 0 120 160" class="tong-bin-svg" aria-label="Tong Sampah Kuning">
-                <rect x="15" y="8" width="90" height="12" rx="4" fill="#E0A800"/>
-                <rect x="12" y="16" width="96" height="8" rx="3" fill="#FFC107"/>
-                <rect x="48" y="2" width="24" height="10" rx="5" fill="none" stroke="#CC9600" stroke-width="3"/>
-                <rect x="18" y="24" width="84" height="100" rx="6" fill="#FFC107"/>
-                <rect x="18" y="24" width="84" height="100" rx="6" fill="url(#binShineYellow)"/>
-                <circle cx="60" cy="70" r="20" fill="rgba(255,255,255,0.2)"/>
+                <rect x="15" y="8" width="90" height="12" rx="4" fill="#E0A800" />
+                <rect x="12" y="16" width="96" height="8" rx="3" fill="#FFC107" />
+                <rect x="48" y="2" width="24" height="10" rx="5" fill="none" stroke="#CC9600" stroke-width="3" />
+                <rect x="18" y="24" width="84" height="100" rx="6" fill="#FFC107" />
+                <rect x="18" y="24" width="84" height="100" rx="6" fill="url(#binShineYellow)" />
+                <circle cx="60" cy="70" r="20" fill="rgba(255,255,255,0.2)" />
                 <text x="60" y="77" text-anchor="middle" fill="white" font-size="22" font-weight="bold">♻</text>
-                <line x1="22" y1="90" x2="98" y2="90" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-                <line x1="22" y1="100" x2="98" y2="100" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-                <rect x="20" y="120" width="80" height="6" rx="3" fill="#CC9600"/>
-                <circle cx="35" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2"/>
-                <circle cx="35" cy="134" r="3" fill="#666"/>
-                <circle cx="85" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2"/>
-                <circle cx="85" cy="134" r="3" fill="#666"/>
+                <line x1="22" y1="90" x2="98" y2="90" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+                <line x1="22" y1="100" x2="98" y2="100" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+                <rect x="20" y="120" width="80" height="6" rx="3" fill="#CC9600" />
+                <circle cx="35" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2" />
+                <circle cx="35" cy="134" r="3" fill="#666" />
+                <circle cx="85" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2" />
+                <circle cx="85" cy="134" r="3" fill="#666" />
                 <defs>
                   <linearGradient id="binShineYellow" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0%" stop-color="rgba(255,255,255,0.18)"/>
-                    <stop offset="40%" stop-color="rgba(255,255,255,0)"/>
-                    <stop offset="100%" stop-color="rgba(0,0,0,0.08)"/>
+                    <stop offset="0%" stop-color="rgba(255,255,255,0.18)" />
+                    <stop offset="40%" stop-color="rgba(255,255,255,0)" />
+                    <stop offset="100%" stop-color="rgba(0,0,0,0.08)" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -360,31 +773,32 @@
             <h4>Kuning</h4>
             <p class="tong-label tong-label-kuning">Anorganik</p>
             <p class="tong-desc">Sampah yang dapat didaur ulang</p>
-            <span class="tong-example">Plastik, kertas, logam, kaca</span>
+            <span class="tong-example">kertas, kardus, kaleng, aluminium, besi kropos, karah, elektronik, plastik,
+              botol/gelas plastik</span>
           </div>
 
           <div class="tong-card" id="tong-hijau">
             <div class="tong-visual-bin">
               <svg viewBox="0 0 120 160" class="tong-bin-svg" aria-label="Tong Sampah Hijau">
-                <rect x="15" y="8" width="90" height="12" rx="4" fill="#1E7E34"/>
-                <rect x="12" y="16" width="96" height="8" rx="3" fill="#28A745"/>
-                <rect x="48" y="2" width="24" height="10" rx="5" fill="none" stroke="#196F2E" stroke-width="3"/>
-                <rect x="18" y="24" width="84" height="100" rx="6" fill="#28A745"/>
-                <rect x="18" y="24" width="84" height="100" rx="6" fill="url(#binShineGreen)"/>
-                <circle cx="60" cy="70" r="20" fill="rgba(255,255,255,0.15)"/>
+                <rect x="15" y="8" width="90" height="12" rx="4" fill="#1E7E34" />
+                <rect x="12" y="16" width="96" height="8" rx="3" fill="#28A745" />
+                <rect x="48" y="2" width="24" height="10" rx="5" fill="none" stroke="#196F2E" stroke-width="3" />
+                <rect x="18" y="24" width="84" height="100" rx="6" fill="#28A745" />
+                <rect x="18" y="24" width="84" height="100" rx="6" fill="url(#binShineGreen)" />
+                <circle cx="60" cy="70" r="20" fill="rgba(255,255,255,0.15)" />
                 <text x="60" y="77" text-anchor="middle" fill="white" font-size="22" font-weight="bold">🍃</text>
-                <line x1="22" y1="90" x2="98" y2="90" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-                <line x1="22" y1="100" x2="98" y2="100" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-                <rect x="20" y="120" width="80" height="6" rx="3" fill="#196F2E"/>
-                <circle cx="35" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2"/>
-                <circle cx="35" cy="134" r="3" fill="#666"/>
-                <circle cx="85" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2"/>
-                <circle cx="85" cy="134" r="3" fill="#666"/>
+                <line x1="22" y1="90" x2="98" y2="90" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+                <line x1="22" y1="100" x2="98" y2="100" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+                <rect x="20" y="120" width="80" height="6" rx="3" fill="#196F2E" />
+                <circle cx="35" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2" />
+                <circle cx="35" cy="134" r="3" fill="#666" />
+                <circle cx="85" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2" />
+                <circle cx="85" cy="134" r="3" fill="#666" />
                 <defs>
                   <linearGradient id="binShineGreen" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
-                    <stop offset="40%" stop-color="rgba(255,255,255,0)"/>
-                    <stop offset="100%" stop-color="rgba(0,0,0,0.1)"/>
+                    <stop offset="0%" stop-color="rgba(255,255,255,0.15)" />
+                    <stop offset="40%" stop-color="rgba(255,255,255,0)" />
+                    <stop offset="100%" stop-color="rgba(0,0,0,0.1)" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -392,31 +806,32 @@
             <h4>Hijau</h4>
             <p class="tong-label tong-label-hijau">Organik</p>
             <p class="tong-desc">Sampah yang dapat terurai alami</p>
-            <span class="tong-example">Sisa makanan, daun, kulit buah</span>
+            <span class="tong-example">Daun kering, kulit buah, sisa makanan dan minuman, cangkang telur, tulang ayam,
+              tulang ikan dan tulang sapi</span>
           </div>
 
           <div class="tong-card" id="tong-abuabu">
             <div class="tong-visual-bin">
               <svg viewBox="0 0 120 160" class="tong-bin-svg" aria-label="Tong Sampah Abu-abu">
-                <rect x="15" y="8" width="90" height="12" rx="4" fill="#545B62"/>
-                <rect x="12" y="16" width="96" height="8" rx="3" fill="#6C757D"/>
-                <rect x="48" y="2" width="24" height="10" rx="5" fill="none" stroke="#495057" stroke-width="3"/>
-                <rect x="18" y="24" width="84" height="100" rx="6" fill="#6C757D"/>
-                <rect x="18" y="24" width="84" height="100" rx="6" fill="url(#binShineGray)"/>
-                <circle cx="60" cy="70" r="20" fill="rgba(255,255,255,0.12)"/>
+                <rect x="15" y="8" width="90" height="12" rx="4" fill="#545B62" />
+                <rect x="12" y="16" width="96" height="8" rx="3" fill="#6C757D" />
+                <rect x="48" y="2" width="24" height="10" rx="5" fill="none" stroke="#495057" stroke-width="3" />
+                <rect x="18" y="24" width="84" height="100" rx="6" fill="#6C757D" />
+                <rect x="18" y="24" width="84" height="100" rx="6" fill="url(#binShineGray)" />
+                <circle cx="60" cy="70" r="20" fill="rgba(255,255,255,0.12)" />
                 <text x="60" y="77" text-anchor="middle" fill="white" font-size="22" font-weight="bold">✕</text>
-                <line x1="22" y1="90" x2="98" y2="90" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-                <line x1="22" y1="100" x2="98" y2="100" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-                <rect x="20" y="120" width="80" height="6" rx="3" fill="#495057"/>
-                <circle cx="35" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2"/>
-                <circle cx="35" cy="134" r="3" fill="#666"/>
-                <circle cx="85" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2"/>
-                <circle cx="85" cy="134" r="3" fill="#666"/>
+                <line x1="22" y1="90" x2="98" y2="90" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+                <line x1="22" y1="100" x2="98" y2="100" stroke="rgba(0,0,0,0.08)" stroke-width="1" />
+                <rect x="20" y="120" width="80" height="6" rx="3" fill="#495057" />
+                <circle cx="35" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2" />
+                <circle cx="35" cy="134" r="3" fill="#666" />
+                <circle cx="85" cy="134" r="8" fill="#444" stroke="#333" stroke-width="2" />
+                <circle cx="85" cy="134" r="3" fill="#666" />
                 <defs>
                   <linearGradient id="binShineGray" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
-                    <stop offset="40%" stop-color="rgba(255,255,255,0)"/>
-                    <stop offset="100%" stop-color="rgba(0,0,0,0.1)"/>
+                    <stop offset="0%" stop-color="rgba(255,255,255,0.12)" />
+                    <stop offset="40%" stop-color="rgba(255,255,255,0)" />
+                    <stop offset="100%" stop-color="rgba(0,0,0,0.1)" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -424,7 +839,8 @@
             <h4>Abu-abu</h4>
             <p class="tong-label tong-label-abuabu">Residu</p>
             <p class="tong-desc">Sampah yang tidak masuk kategori lain</p>
-            <span class="tong-example">Popok, pembalut, puntung rokok, styrofoam</span>
+            <span class="tong-example">Popok, pembalut, puntung rokok, tisu bekas, bungkus makanan basah dan
+              masker</span>
           </div>
         </div>
       </div>
@@ -434,64 +850,194 @@
   <!-- ===== LAYANAN ===== -->
   <section class="section-layanan" id="layanan">
     <div class="wave-divider top">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 C360,0 1080,0 1440,60 L1440,0 L0,0 Z" fill="#1a3820"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C360,0 1080,0 1440,60 L1440,0 L0,0 Z" fill="#1a3820" />
+      </svg>
     </div>
     <div class="container">
       <div class="section-header" id="layanan-header">
-        <div class="section-label light">Layanan Kami</div>
+        <div class="section-label light">Layanan Bank Sampah Ampang Saiyo Mandiri</div>
         <h2 class="section-title light">Sampah Anda, Nilai Kami</h2>
-        <p class="section-desc light">Kami menerima berbagai jenis sampah terpilah dan mengkonversinya menjadi manfaat nyata bagi Anda.</p>
+        <p class="section-desc light">Bank Sampah Ampang Saiyo Mandiri menerima berbagai jenis sampah terpilah dan
+          mengkonversinya menjadi manfaat nyata.</p>
       </div>
       <div class="jenis-sampah-wrap" id="jenis-sampah-table">
         <h3 class="jenis-sampah-title">Daftar Lengkap Jenis Sampah yang Diterima</h3>
         <div class="table-responsive">
           <table class="sampah-table">
-            <thead><tr><th>No.</th><th>Jenis Sampah</th><th>Contoh</th><th>Ket.</th></tr></thead>
+            <thead>
+              <tr>
+                <th>No.</th>
+                <th>Jenis Sampah</th>
+                <th>Contoh</th>
+                <th>Ket.</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr><td>1</td><td>Botol mineral (pet botol)</td><td>Botol aqua, minerale</td><td>Per kg</td></tr>
-              <tr><td>2</td><td>Mineral Gelas (AGB)</td><td>Aqua Gelas Bersih, gelas sajuak</td><td>Per kg</td></tr>
-              <tr><td>3</td><td>Karah campur</td><td>Pecahan ember plastik, tutup botol mineral, tutup galon, kemasan minyak goreng, gelas warna</td><td>Per kg</td></tr>
-              <tr><td>4</td><td>Karah botol</td><td>Botol bedak bayi, botol handbody, botol shampoo</td><td>Per kg</td></tr>
-              <tr><td>5</td><td>Botol warna</td><td>Botol sprite, fanta, coca cola</td><td>Per kg</td></tr>
-              <tr><td>6</td><td>Impack</td><td>Bedak padat, kosmetik, helm</td><td>Per kg</td></tr>
-              <tr><td>7</td><td>Kertas putih</td><td>Kertas tanpa warna, kertas buku, HVS</td><td>Per kg</td></tr>
-              <tr><td>8</td><td>Buram</td><td>Kertas lembaran LKS</td><td>Per kg</td></tr>
-              <tr><td>9</td><td>Koran</td><td>Harian atau mingguan</td><td>Per kg</td></tr>
-              <tr><td>10</td><td>Kulit</td><td>Kotak susu, kotak snack, undangan, kalender, kulit buku, bungkus pasta gigi, kertas berwarna</td><td>Per kg</td></tr>
-              <tr><td>11</td><td>Kardus</td><td>Aneka kardus (berongga)</td><td>Per kg</td></tr>
-              <tr><td>12</td><td>Alas telur</td><td>Alas telur utuh</td><td>Per lapiak</td></tr>
-              <tr><td>13</td><td>Aluminium</td><td>Kaleng sprite, fanta, antena, tutup marjan</td><td>Per kg</td></tr>
-              <tr><td>14</td><td>Kaca</td><td>Sirup ABC, Marjan, Bir bintang</td><td>Per botol</td></tr>
+              <tr>
+                <td>1</td>
+                <td>Botol mineral (pet botol)</td>
+                <td>Botol aqua, minerale</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Mineral Gelas (AGB)</td>
+                <td>Aqua Gelas Bersih, gelas sajuak</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Karah campur</td>
+                <td>Pecahan ember plastik, tutup botol mineral, tutup galon, kemasan minyak goreng, gelas warna</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Karah botol</td>
+                <td>Botol bedak bayi, botol handbody, botol shampoo</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Botol warna</td>
+                <td>Botol sprite, fanta, coca cola</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Impack</td>
+                <td>Bedak padat, kosmetik, helm</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Kertas putih</td>
+                <td>Kertas tanpa warna, kertas buku, HVS</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Buram</td>
+                <td>Kertas lembaran LKS</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Koran</td>
+                <td>Harian atau mingguan</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Kulit</td>
+                <td>Kotak susu, kotak snack, undangan, kalender, kulit buku, bungkus pasta gigi, kertas berwarna</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Kardus</td>
+                <td>Aneka kardus (berongga)</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Alas telur</td>
+                <td>Alas telur utuh</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Aluminium</td>
+                <td>Kaleng sprite, fanta, antena, tutup marjan</td>
+                <td>Per kg</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Kaca</td>
+                <td>Sirup ABC, Marjan</td>
+                <td>Per botol</td>
+              </tr>
             </tbody>
           </table>
         </div>
-        <div class="table-note"><svg class="icon icon-sm"><use href="#icon-sprout"/></svg><p><strong>💡 Tips:</strong> Galon bekas (PC/PET) tidak kami tampung, namun dapat dimanfaatkan sebagai <strong>pot bunga</strong> atau wadah tanaman di rumah Anda!</p></div>
+        <div class="table-note"><svg class="icon icon-sm">
+            <use href="#icon-sprout" />
+          </svg>
+          <p><strong>Syarat dan ketentuan berlaku:</strong> <br> 1. Sampah sudah dipilah dari rumah <br>2. Sampah dalam
+            keadaan kering dan bersih</p>
+        </div>
       </div>
     </div>
     <div class="wave-divider bottom">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill="var(--white)"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill="var(--white)" />
+      </svg>
     </div>
   </section>
 
-  <!-- ===== ALUR MENABUNG ===== -->
-  <section class="section-alur" id="alur">
-    <div class="wave-divider top">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 C360,0 1080,0 1440,60 L1440,0 L0,0 Z" fill="var(--green-800)"/></svg>
-    </div>
+  <!-- ===== SYARAT MENJADI NASABAH ===== -->
+  <section class="section-syarat" id="syarat">
     <div class="container">
-      <div class="section-header" id="alur-header"><div class="section-label">Cara Menabung</div><h2 class="section-title">Mudah &amp; Menguntungkan</h2></div>
-      <div class="alur-steps">
-        <div class="alur-step" id="step-1"><div class="step-number">01</div><div class="step-icon"><svg class="icon icon-xl"><use href="#icon-house"/></svg></div><h3>Pilah di Rumah</h3><p>Pisahkan sampah berdasarkan jenisnya — plastik, kertas, logam, dan organik sejak dari rumah tangga</p></div>
-        <div class="alur-arrow"><svg class="icon"><use href="#icon-arrow-right"/></svg></div>
-        <div class="alur-step" id="step-2"><div class="step-number">02</div><div class="step-icon"><svg class="icon icon-xl"><use href="#icon-walk"/></svg></div><h3>Setor ke BSU</h3><p>Bawa sampah terpilah ke Kantor BSU Ampang Saiyo atau gunakan layanan penjemputan</p></div>
-        <div class="alur-arrow"><svg class="icon"><use href="#icon-arrow-right"/></svg></div>
-        <div class="alur-step" id="step-3"><div class="step-number">03</div><div class="step-icon"><svg class="icon icon-xl"><use href="#icon-scale"/></svg></div><h3>Timbang &amp; Catat</h3><p>Sampah ditimbang dan dicatat secara digital, nilainya langsung masuk ke rekening tabungan Anda</p></div>
-        <div class="alur-arrow"><svg class="icon"><use href="#icon-arrow-right"/></svg></div>
-        <div class="alur-step" id="step-4"><div class="step-number">04</div><div class="step-icon"><svg class="icon icon-xl"><use href="#icon-cart"/></svg></div><h3>Tukar Manfaat</h3><p>Tabungan dapat dikonversi jadi uang tunai, sembako, atau kebutuhan pokok lainnya</p></div>
+      <div class="syarat-banner">
+        <div class="syarat-header-wrap">
+          <div class="section-label">Syarat Pendaftaran</div>
+          <h2 class="section-title">Syarat Menjadi Nasabah</h2>
+          <p class="section-desc">Mudah, cepat, dan tanpa biaya sepeser pun. Segera daftarkan keluarga Anda!</p>
+        </div>
+        
+        <div class="syarat-grid">
+          <!-- Syarat 1 -->
+          <div class="syarat-card">
+            <div class="syarat-badge-num">1</div>
+            <div class="syarat-icon-box" style="background: rgba(76, 175, 80, 0.15); color: var(--green-600);">
+              <svg class="icon icon-lg"><use href="#icon-recycle2" /></svg>
+            </div>
+            <div class="syarat-content">
+              <h3>Punya Sampah</h3>
+              <p>Menyiapkan sampah terpilah (organik / anorganik) dari rumah yang siap disetor atau ditimbang.</p>
+            </div>
+          </div>
+
+          <!-- Syarat 2 -->
+          <div class="syarat-card">
+            <div class="syarat-badge-num">2</div>
+            <div class="syarat-icon-box" style="background: rgba(33, 150, 243, 0.15); color: #2196F3;">
+              <svg class="icon icon-lg"><use href="#icon-id-card" /></svg>
+            </div>
+            <div class="syarat-content">
+              <h3>Fotocopy KTP / KK</h3>
+              <p>Membawa fotocopy KTP atau KK untuk pencatatan identitas pada buku tabungan nasabah.</p>
+            </div>
+          </div>
+
+          <!-- Box GRATIS -->
+          <div class="syarat-free-box">
+            <div class="free-icon-wrap">
+              <svg class="icon icon-xl"><use href="#icon-gift" /></svg>
+            </div>
+            <div class="free-text-content">
+              <span class="free-label">BIAYA PENDAFTARAN</span>
+              <span class="free-title">100% GRATIS</span>
+              <p>Tanpa biaya admin, potongan bulanan, atau biaya tersembunyi</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="wave-divider bottom">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 C360,60 1080,60 1440,0 L1440,60 L0,60 Z" fill="#122a16"/></svg>
+  </section>
+
+  <!-- ===== ALUR / CARA MENABUNG ===== -->
+  <section class="section-alur" id="alur">
+    <div class="container">
+      <div class="section-header" id="alur-header">
+        <div class="section-label">Alur Pelayanan</div>
+        <h2 class="section-title">Cara Menabung <br> di Bank Sampah Ampang Saiyo Mandiri</h2>
+      </div>
+
+      <div class="alur-img-container">
+        <img src="images/alur-menabung.png" alt="Cara Menabung di Bank Sampah Ampang Saiyo Mandiri" class="alur-img" />
+      </div>
     </div>
   </section>
 
@@ -499,118 +1045,269 @@
   <section class="section-circular" id="circular">
     <div class="container circular-wrap">
       <div class="circular-content" id="circular-content">
-        <div class="section-label light">Konsep Kami</div>
-        <h2 class="section-title light">Ekonomi Sirkular<br/>dalam Genggaman</h2>
-        <p class="about-text" style="color: rgba(255,255,255,0.85)">BSU Ampang Saiyo menerapkan model ekonomi sirkular di mana tidak ada sampah yang terbuang sia-sia. Setiap kilogram sampah yang disetor masyarakat akan kembali memberikan manfaat — baik bagi lingkungan maupun perekonomian keluarga.</p>
+        <div class="section-label light">Konsep Bank Sampah Ampang Saiyo Mandiri</div>
+        <h2 class="section-title light">Ekonomi Sirkular<br />dalam Genggaman</h2>
+        <p class="about-text" style="color: rgba(255,255,255,0.85)">Bank Sampah Ampang Saiyo Mandiri menerapkan model ekonomi sirkular
+          di mana tidak ada sampah yang terbuang sia-sia. Setiap kilogram sampah yang disetor masyarakat akan kembali
+          memberikan manfaat — baik bagi lingkungan maupun perekonomian keluarga.</p>
         <ul class="circular-list">
-          <li><span><svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></span> Sampah plastik &rarr; pellet daur ulang</li>
-          <li><span><svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></span> Sampah organik &rarr; kompos pupuk tanaman</li>
-          <li><span><svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></span> Logam &amp; kertas &rarr; bahan baku industri</li>
-          <li><span><svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></span> Galon bekas &rarr; pot bunga &amp; wadah kreatif</li>
+          <li><span><svg class="icon icon-xs">
+                <use href="#icon-arrow-right" />
+              </svg></span> Sampah plastik &rarr; pellet daur ulang</li>
+          <li><span><svg class="icon icon-xs">
+                <use href="#icon-arrow-right" />
+              </svg></span> Sampah organik &rarr; kompos pupuk tanaman</li>
+          <li><span><svg class="icon icon-xs">
+                <use href="#icon-arrow-right" />
+              </svg></span> Logam &amp; kertas &rarr; bahan baku industri</li>
+          <li><span><svg class="icon icon-xs">
+                <use href="#icon-arrow-right" />
+              </svg></span> Galon bekas &rarr; pot bunga &amp; wadah kreatif</li>
         </ul>
       </div>
-      <div class="circular-image" id="circular-image"><img src="images/circular_economy.png" alt="Alur ekonomi sirkular BSU Ampang Saiyo" class="ce-img" /></div>
+      <div class="circular-image" id="circular-image"><img src="images/circular_economy.png"
+          alt="Alur ekonomi sirkular Bank Sampah Ampang Saiyo Mandiri" class="ce-img" /></div>
     </div>
     <div class="wave-divider bottom">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill="var(--off-white)"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill="var(--off-white)" />
+      </svg>
     </div>
   </section>
 
   <!-- ===== MANFAAT MENABUNG SAMPAH ===== -->
   <section class="section-manfaat" id="manfaat">
     <div class="container">
-      <div class="section-header" id="manfaat-header"><div class="section-label">Manfaat Nyata</div><h2 class="section-title">Tabung Sampah, Raih Manfaat</h2><p class="section-desc">Menabung sampah bukan hanya menjaga lingkungan, tapi juga memberikan keuntungan nyata bagi keluarga Anda.</p></div>
+      <div class="section-header" id="manfaat-header">
+        <div class="section-label">Manfaat Nyata</div>
+        <h2 class="section-title">Tabung Sampah, Raih Manfaat</h2>
+        <p class="section-desc">Menabung sampah bukan hanya menjaga lingkungan, tapi juga memberikan keuntungan nyata
+          bagi keluarga Anda.</p>
+      </div>
       <div class="manfaat-grid">
-        <div class="manfaat-image-wrap" id="manfaat-img"><img src="images/waste_exchange_benefit.png" alt="Penukaran sampah dengan sembako" class="manfaat-img" /></div>
+        <div class="manfaat-image-wrap" id="manfaat-img">
+          <div class="manfaat-img-container">
+            <img src="images/manfaat_sembako.jpg"
+              alt="Penukaran sampah dengan sembako" class="manfaat-img" id="manfaat-main-img" />
+            <div class="manfaat-img-overlay">
+              <span class="manfaat-tag-pill">Dokumentasi Nyata</span>
+              <h4 class="manfaat-caption-title" id="manfaat-caption-title">Tukar Sembako</h4>
+            </div>
+          </div>
+          <div class="manfaat-interactive-hint">
+            <span class="hint-pulse"></span>
+            <span>Klik manfaat di samping untuk melihat foto kegiatan</span>
+          </div>
+        </div>
         <div class="manfaat-list" id="manfaat-list">
-          <div class="manfaat-item"><div class="manfaat-icon" style="background: rgba(76,175,80,0.12); color: var(--green-600);"><svg class="icon icon-md"><use href="#icon-cart"/></svg></div><div><strong>Tukar Sembako</strong><p>Tabungan sampah bisa ditukar dengan minyak goreng, gula, beras, dan kebutuhan pokok lainnya</p></div></div>
-          <div class="manfaat-item"><div class="manfaat-icon" style="background: rgba(245,166,35,0.12); color: var(--amber);"><svg class="icon icon-md"><use href="#icon-savings"/></svg></div><div><strong>Tabungan Uang</strong><p>Nilai sampah dikonversi ke tabungan yang bisa dicairkan kapan saja</p></div></div>
-          <div class="manfaat-item"><div class="manfaat-icon" style="background: rgba(33,150,243,0.12); color: #2196F3;"><svg class="icon icon-md"><use href="#icon-leaf"/></svg></div><div><strong>Lingkungan Bersih</strong><p>Mengurangi sampah yang berakhir di sungai dan TPA</p></div></div>
-          <div class="manfaat-item"><div class="manfaat-icon" style="background: rgba(156,39,176,0.12); color: #9C27B0;"><svg class="icon icon-md"><use href="#icon-people"/></svg></div><div><strong>Komunitas Sehat</strong><p>Bergabung dengan 175+ nasabah aktif di Kelurahan Ampang</p></div></div>
+          <div class="manfaat-item active" data-benefit="sembako" data-img="images/manfaat_sembako.jpg" data-title="Tukar Sembako" tabindex="0" role="button">
+            <div class="manfaat-icon" style="background: rgba(76,175,80,0.12); color: var(--green-600);"><svg
+                class="icon icon-md">
+                <use href="#icon-cart" />
+              </svg></div>
+            <div class="manfaat-item-text">
+              <strong>Tukar Sembako</strong>
+              <p>Tabungan sampah bisa ditukar dengan minyak goreng, gula, beras, dan kebutuhan pokok lainnya</p>
+            </div>
+            <div class="manfaat-arrow-indicator">
+              <svg class="icon icon-xs"><use href="#icon-arrow-right" /></svg>
+            </div>
+          </div>
+          <div class="manfaat-item" data-benefit="tabungan" data-img="images/manfaat_tabungan.jpg" data-title="Tabungan Uang" tabindex="0" role="button">
+            <div class="manfaat-icon" style="background: rgba(245,166,35,0.12); color: var(--amber);"><svg
+                class="icon icon-md">
+                <use href="#icon-savings" />
+              </svg></div>
+            <div class="manfaat-item-text">
+              <strong>Tabungan Uang</strong>
+              <p>Nilai sampah dikonversi ke tabungan yang bisa dicairkan kapan saja</p>
+            </div>
+            <div class="manfaat-arrow-indicator">
+              <svg class="icon icon-xs"><use href="#icon-arrow-right" /></svg>
+            </div>
+          </div>
+          <div class="manfaat-item" data-benefit="lingkungan" data-img="images/manfaat_lingkungan.jpg" data-title="Lingkungan Bersih" tabindex="0" role="button">
+            <div class="manfaat-icon" style="background: rgba(33,150,243,0.12); color: #2196F3;"><svg
+                class="icon icon-md">
+                <use href="#icon-leaf" />
+              </svg></div>
+            <div class="manfaat-item-text">
+              <strong>Lingkungan Bersih</strong>
+              <p>Mengurangi sampah yang berakhir di sungai dan TPA demi kelestarian alam</p>
+            </div>
+            <div class="manfaat-arrow-indicator">
+              <svg class="icon icon-xs"><use href="#icon-arrow-right" /></svg>
+            </div>
+          </div>
+          <div class="manfaat-item" data-benefit="komunitas" data-img="images/manfaat_komunitas.jpg" data-title="Komunitas Sehat" tabindex="0" role="button">
+            <div class="manfaat-icon" style="background: rgba(156,39,176,0.12); color: #9C27B0;"><svg
+                class="icon icon-md">
+                <use href="#icon-people" />
+              </svg></div>
+            <div class="manfaat-item-text">
+              <strong>Komunitas Sehat</strong>
+              <p>Bergabung dengan 187+ nasabah aktif di Kelurahan Ampang dalam kebersamaan</p>
+            </div>
+            <div class="manfaat-arrow-indicator">
+              <svg class="icon icon-xs"><use href="#icon-arrow-right" /></svg>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="wave-divider bottom">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 C360,60 1080,60 1440,0 L1440,60 L0,60 Z" fill="var(--green-900)"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C360,60 1080,60 1440,0 L1440,60 L0,60 Z" fill="var(--green-900)" />
+      </svg>
     </div>
   </section>
 
   <!-- ===== PRODUK OLAHAN & DAUR ULANG ===== -->
   <section class="section-produk" id="produk">
     <div class="container">
-      <div class="section-header" id="produk-header"><div class="section-label light">Produk Olahan</div><h2 class="section-title light">Dari Sampah Jadi Karya</h2><p class="section-desc light">Hasil olahan dan daur ulang dari Bank Sampah kami. Sebagian dijual, sebagian untuk edukasi masyarakat.</p></div>
+      <div class="section-header" id="produk-header">
+        <div class="section-label light">Produk Olahan</div>
+        <h2 class="section-title light">Dari Sampah Jadi Karya</h2>
+        <p class="section-desc light">Hasil olahan dan daur ulang dari Bank Sampah. Sebagian dijual, sebagian untuk
+          edukasi masyarakat.</p>
+      </div>
       <div class="produk-grid">
         <div class="produk-card" id="produk-1">
-          <div class="produk-img-wrap"><img src="images/produk_kompos.png" alt="Kompos Organik Takakura" class="produk-card-img"/></div>
-          <h3>Kompos Organik</h3>
-          <p>Pupuk kompos dari sampah organik rumah tangga, diolah dengan metode Takakura. Cocok untuk tanaman dan kebun.</p>
-          <span class="produk-badge">Metode Takakura</span>
-        </div>
-        <div class="produk-card" id="produk-2">
-          <div class="produk-img-wrap"><img src="images/produk_ecoenzyme.png" alt="Eco-Enzyme" class="produk-card-img"/></div>
+          <div class="produk-img-wrap"><img src="images/produk_ecoenzyme.png" alt="Eco-Enzyme"
+              class="produk-card-img" /></div>
           <h3>Eco-Enzyme</h3>
           <p>Cairan serbaguna dari fermentasi sampah organik. Dapat digunakan sebagai pembersih alami, pupuk cair, hingga pengusir hama.</p>
           <span class="produk-badge">Ramah Lingkungan</span>
         </div>
+        <div class="produk-card" id="produk-2">
+          <div class="produk-img-wrap"><img src="images/produk_kompos.png" alt="Kompos Organik"
+              class="produk-card-img" /></div>
+          <h3>Kompos</h3>
+          <p>Kompos dari sampah organik rumah tangga, diolah dengan metode pengomposan. Cocok untuk tanaman dan kebun.</p>
+          <span class="produk-badge">Pupuk Alami</span>
+        </div>
         <div class="produk-card" id="produk-3">
-          <div class="produk-img-wrap"><img src="images/produk_kompor.png" alt="Kompor Daur Ulang" class="produk-card-img"/></div>
-          <h3>Kompor Daur Ulang</h3>
-          <p>Kompor sederhana yang dibuat dari kaleng dan material daur ulang. Solusi kreatif pemanfaatan limbah logam.</p>
-          <span class="produk-badge">Inovasi Lokal</span>
+          <div class="produk-img-wrap"><img src="images/recycled_products.png" alt="Pupuk Organik Cair"
+              class="produk-card-img" /></div>
+          <h3>Pupuk Organik Cair (Ember Tumpuk)</h3>
+          <p>Air lindi dari sampah organik rumah tangga.</p>
+          <span class="produk-badge">Air Lindi</span>
         </div>
         <div class="produk-card" id="produk-4">
-          <div class="produk-img-wrap"><img src="images/produk_potbunga.png" alt="Pot Bunga dari Galon Bekas" class="produk-card-img"/></div>
-          <h3>Pot Bunga Galon</h3>
-          <p>Galon bekas yang dikreasikan menjadi pot bunga cantik. Mengubah limbah menjadi dekorasi rumah yang indah.</p>
+          <div class="produk-img-wrap"><img src="images/program_takakura.png" alt="Pupuk Organik"
+              class="produk-card-img" /></div>
+          <h3>Pupuk Organik</h3>
+          <p>Pupuk dari kotoran hewan.</p>
+          <span class="produk-badge">Kotoran Hewan</span>
+        </div>
+        <div class="produk-card" id="produk-5">
+          <div class="produk-img-wrap"><img src="images/produk_kompos.png" alt="MOL"
+              class="produk-card-img" /></div>
+          <h3>MOL (Mikro Organisme Lokal)</h3>
+          <p>Larutan dari bahan bahan organik.</p>
+          <span class="produk-badge">Larutan Organik</span>
+        </div>
+        <div class="produk-card" id="produk-6">
+          <div class="produk-img-wrap"><img src="images/sampah_anorganik.png" alt="Kertas Daur Ulang"
+              class="produk-card-img" /></div>
+          <h3>Kertas Daur Ulang</h3>
+          <p>Kertas daur ulang terbuat dari kertas buku bersih.</p>
+          <span class="produk-badge">Daur Ulang Kertas</span>
+        </div>
+        <div class="produk-card" id="produk-7">
+          <div class="produk-img-wrap"><img src="images/produk_potbunga.png" alt="Ember Tumpuk"
+              class="produk-card-img" /></div>
+          <h3>Ember Tumpuk</h3>
+          <p>Ember bekas untuk pengomposan organik.</p>
           <span class="produk-badge">Upcycling</span>
         </div>
       </div>
     </div>
     <div class="wave-divider bottom">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill="var(--gray-100)"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill="var(--gray-100)" />
+      </svg>
     </div>
   </section>
 
   <!-- ===== PROGRAM ===== -->
   <section class="section-program" id="program">
     <div class="container">
-      <div class="section-header" id="program-header"><div class="section-label">Program Unggulan</div><h2 class="section-title">Inovasi untuk Lingkungan</h2><p class="section-desc">Kami tidak hanya menampung sampah — kami mendorong perubahan perilaku dan inovasi lingkungan.</p></div>
+      <div class="section-header" id="program-header">
+        <div class="section-label">Program Unggulan</div>
+        <h2 class="section-title">Inovasi untuk Lingkungan</h2>
+        <p class="section-desc">Kami tidak hanya menampung sampah — kami mendorong perubahan perilaku dan inovasi
+          lingkungan.</p>
+      </div>
       <div class="program-grid">
         <div class="program-card featured" id="prog-1">
-          <div class="program-img-wrap"><img src="images/program_padangmemilah.png" alt="Program Padang Memilah" class="program-card-img"/></div>
+          <div class="program-img-wrap"><img src="images/program_padangmemilah.png" alt="Program Padang Memilah"
+              class="program-card-img" /></div>
           <h3>Padang Memilah</h3>
-          <p>Gerakan bersama mendorong kebiasaan memilah sampah di seluruh Kota Padang. BSU Ampang Saiyo sebagai salah satu penggerak utama.</p>
-          <a href="#" class="program-link gallery-trigger" id="prog-link-1">Lihat Galeri <svg class="icon icon-xs"><use href="#icon-image"/></svg></a>
+          <p>Gerakan bersama mendorong kebiasaan memilah sampah di seluruh Kota Padang. Bank Sampah Ampang Saiyo Mandiri sebagai salah
+            satu penggerak utama.</p>
+          <a href="#" class="program-link gallery-trigger" id="prog-link-1">Lihat Galeri <svg class="icon icon-xs">
+              <use href="#icon-image" />
+            </svg></a>
         </div>
         <div class="program-card" id="prog-2">
-          <div class="program-img-wrap"><img src="images/program_kurban.png" alt="Program Kurban Asik Tanpa Sampah Plastik" class="program-card-img"/></div>
+          <div class="program-img-wrap"><img src="images/program_kurban.png"
+              alt="Program Kurban Asik Tanpa Sampah Plastik" class="program-card-img" /></div>
           <h3>Kurban Asik Tanpa Sampah Plastik</h3>
-          <p>Program inovatif mengelola sampah dari kegiatan penyembelihan hewan kurban agar bebas dari sampah plastik.</p>
-          <a href="#" class="program-link" id="prog-link-2">Pelajari lebih <svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></a>
+          <p>Program inovatif mengelola sampah dari kegiatan penyembelihan hewan kurban agar bebas dari sampah plastik.
+          </p>
+          <a href="#" class="program-link" id="prog-link-2">Pelajari lebih <svg class="icon icon-xs">
+              <use href="#icon-arrow-right" />
+            </svg></a>
         </div>
         <div class="program-card" id="prog-3">
-          <div class="program-img-wrap"><img src="images/program_takakura.png" alt="Pelatihan Kompos Takakura" class="program-card-img"/></div>
-          <h3>Pelatihan Kompos Takakura &amp; TOSS</h3>
-          <p>Edukasi pengolahan sampah organik rumah tangga menggunakan metode Takakura dan TOSS bersama Universitas Andalas.</p>
-          <a href="#" class="program-link" id="prog-link-3">Pelajari lebih <svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></a>
+          <div class="program-img-wrap"><img src="images/program_takakura.png" alt="Pelatihan Kompos Takakura"
+              class="program-card-img" /></div>
+          <h3>Pelatihan Kompos Takakura &amp; MOL</h3>
+          <p>Edukasi pengolahan sampah organik rumah tangga menggunakan metode Takakura dan MOL bersama Universitas
+            Andalas.</p>
+          <a href="#" class="program-link" id="prog-link-3">Pelajari lebih <svg class="icon icon-xs">
+              <use href="#icon-arrow-right" />
+            </svg></a>
         </div>
         <div class="program-card" id="prog-4">
-          <div class="program-img-wrap"><img src="images/program_biopori.png" alt="Pembuatan Biopori" class="program-card-img"/></div>
+          <div class="program-img-wrap"><img src="images/program_biopori.png" alt="Pembuatan Biopori"
+              class="program-card-img" /></div>
           <h3>Pembuatan Biopori</h3>
-          <p>Pelatihan pembuatan lubang biopori untuk meningkatkan penyerapan air tanah dan mengurangi risiko banjir di Ampang.</p>
-          <a href="#" class="program-link" id="prog-link-4">Pelajari lebih <svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></a>
+          <p>Pelatihan pembuatan lubang biopori untuk meningkatkan penyerapan air tanah dan mengurangi risiko banjir di
+            Ampang.</p>
+          <a href="#" class="program-link" id="prog-link-4">Pelajari lebih <svg class="icon icon-xs">
+              <use href="#icon-arrow-right" />
+            </svg></a>
         </div>
         <div class="program-card" id="prog-5">
-          <div class="program-img-wrap"><img src="images/community_activity.png" alt="Digitalisasi Tabungan" class="program-card-img"/></div>
+          <div class="program-img-wrap"><img src="images/community_activity.png" alt="Digitalisasi Tabungan"
+              class="program-card-img" /></div>
           <h3>Digitalisasi Tabungan</h3>
-          <p>Sistem pencatatan setoran sampah berbasis digital untuk transparansi dan kemudahan akses bagi seluruh nasabah.</p>
-          <a href="#" class="program-link" id="prog-link-5">Pelajari lebih <svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></a>
+          <p>Sistem pencatatan setoran sampah berbasis digital untuk transparansi dan kemudahan akses bagi seluruh
+            nasabah.</p>
+          <a href="#" class="program-link" id="prog-link-5">Pelajari lebih <svg class="icon icon-xs">
+              <use href="#icon-arrow-right" />
+            </svg></a>
         </div>
         <div class="program-card" id="prog-6">
-          <div class="program-img-wrap"><img src="images/community_activity.png" alt="Kolaborasi AIESEC" class="program-card-img"/></div>
+          <div class="program-img-wrap"><img src="images/community_activity.png" alt="Kolaborasi AIESEC"
+              class="program-card-img" /></div>
           <h3>Kolaborasi Internasional AIESEC</h3>
-          <p>Menerima kunjungan relawan internasional AIESEC untuk berbagi praktik ekonomi sirkular dan pengelolaan sampah terbaik.</p>
-          <a href="#" class="program-link" id="prog-link-6">Pelajari lebih <svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></a>
+          <p>Menerima kunjungan relawan internasional AIESEC untuk berbagi praktik ekonomi sirkular dan pengelolaan
+            sampah terbaik.</p>
+          <a href="#" class="program-link" id="prog-link-6">Pelajari lebih <svg class="icon icon-xs">
+              <use href="#icon-arrow-right" />
+            </svg></a>
+        </div>
+        <div class="program-card" id="prog-7">
+          <div class="program-img-wrap"><img src="images/community_activity.png" alt="Kerjasama Kota Kembar Padang Hildesheim"
+              class="program-card-img" /></div>
+          <h3>Kota Kembar Padang - Hildesheim</h3>
+          <p>Kerjasama kota Padang Indonesia dengan kota Hildesheim German.</p>
+          <a href="#" class="program-link" id="prog-link-7">Pelajari lebih <svg class="icon icon-xs">
+              <use href="#icon-arrow-right" />
+            </svg></a>
         </div>
       </div>
     </div>
@@ -619,54 +1316,14 @@
   <!-- ===== JADWAL PENIMBANGAN ===== -->
   <section class="section-jadwal" id="jadwal">
     <div class="container">
-      <div class="section-header" id="jadwal-header"><div class="section-label">Jadwal Penimbangan</div><h2 class="section-title">Kapan &amp; Di Mana Kami Hadir</h2><p class="section-desc">BSU Ampang Saiyo hadir langsung ke tengah masyarakat. Cek jadwal dan lokasi penimbangan!</p></div>
-      <div class="schedule-overview">
-        <div class="sched-card sched-kamis" id="sched-kamis">
-          <div class="sched-day-badge">KAMIS</div>
-          <div class="sched-icon"><svg class="icon icon-xl"><use href="#icon-building"/></svg></div>
-          <h3>Penimbangan di Kantor</h3>
-          <p class="sched-time"><svg class="icon icon-sm"><use href="#icon-clock"/></svg> 14.00 – 16.00 WIB</p>
-          <p class="sched-loc"><svg class="icon icon-sm"><use href="#icon-pin"/></svg> Jl. Raya Ampang, RT.01/RW.02, Ampang, Kuranji, Padang</p>
-          <a href="https://maps.app.goo.gl/nwjMZ8VY3itARKQs7" target="_blank" class="sched-maps-btn" id="btn-maps-sekre">Buka di Google Maps <svg class="icon icon-xs"><use href="#icon-arrow-right"/></svg></a>
-        </div>
-        <div class="sched-card sched-sabmig" id="sched-sabmig">
-          <div class="sched-day-badge sabmig-badge">SABTU &amp; MINGGU</div>
-          <div class="sched-icon"><svg class="icon icon-xl"><use href="#icon-van"/></svg></div>
-          <h3>Penimbangan Keliling per RW</h3>
-          <p class="sched-time"><svg class="icon icon-sm"><use href="#icon-clock"/></svg> 14.00 – 16.00 WIB</p>
-          <p class="sched-loc"><svg class="icon icon-sm"><use href="#icon-pin"/></svg> Bergantian per RW di Kelurahan Ampang</p>
-          <p class="sched-note">Tim kami hadir langsung ke setiap RW secara bergiliran setiap pekannya</p>
-        </div>
+      <div class="section-header" id="jadwal-header">
+        <div class="section-label">Jadwal Penimbangan</div>
+        <h2 class="section-title">Kapan &amp; Di Mana Kami Hadir</h2>
+        <p class="section-desc">Bank Sampah Ampang Saiyo Mandiri hadir langsung ke tengah masyarakat. Cek jadwal dan lokasi penimbangan!
+        </p>
       </div>
-      <div class="rw-schedule" id="rw-schedule">
-        <h3 class="rw-schedule-title"><svg class="icon icon-md"><use href="#icon-calendar"/></svg> Jadwal Penimbangan Keliling per RW</h3>
-        <div class="rw-grid">
-          <div class="rw-card"><span class="rw-num">RW 01</span><span class="rw-time">Minggu Ke-1</span></div>
-          <div class="rw-card"><span class="rw-num">RW 02</span><span class="rw-time">Minggu Ke-1</span></div>
-          <div class="rw-card"><span class="rw-num">RW 03</span><span class="rw-time">Minggu Ke-2</span></div>
-          <div class="rw-card"><span class="rw-num">RW 04</span><span class="rw-time">Minggu Ke-2</span></div>
-          <div class="rw-card"><span class="rw-num">RW 05</span><span class="rw-time">Minggu Ke-3</span></div>
-          <div class="rw-card"><span class="rw-num">RW 06</span><span class="rw-time">Minggu Ke-3</span></div>
-          <div class="rw-card"><span class="rw-num">RW 07</span><span class="rw-time">Minggu Ke-4</span></div>
-          <div class="rw-card"><span class="rw-num">RW 08</span><span class="rw-time">Minggu Ke-4</span></div>
-        </div>
-      </div>
-
-      <!-- Peta Wilayah -->
-      <div class="maps-embed-wrap" id="maps-embed-wrap">
-        <div class="maps-header"><h3><svg class="icon icon-md"><use href="#icon-map"/></svg> Lokasi Kantor BSU Ampang Saiyo</h3><p>Jl. Raya Ampang, RT.01/RW.02, Kelurahan Ampang, Kec. Kuranji, Kota Padang 25154</p></div>
-        <div class="maps-container">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0!2d100.4011!3d-0.9175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b900258508b9%3A0xc1f5641a991fe03e!2sBank%20Sampah%20Ampang%20Saiyo%20Mandiri!5e0!3m2!1sid!2sid!4v1717000000000!5m2!1sid!2sid" width="100%" height="350" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="google-maps-embed" title="Lokasi BSU Ampang Saiyo"></iframe>
-        </div>
-        <a href="https://maps.app.goo.gl/nwjMZ8VY3itARKQs7" target="_blank" class="btn btn-primary maps-cta" id="btn-maps-full">Buka Google Maps Penuh</a>
-      </div>
-
-      <!-- Peta Batas Wilayah Ampang -->
-      <div class="maps-embed-wrap" id="maps-wilayah" style="margin-top: 2rem;">
-        <div class="maps-header"><h3><svg class="icon icon-md"><use href="#icon-pin"/></svg> Peta Batas Wilayah Kelurahan Ampang</h3><p>Kelurahan Ampang, Kecamatan Kuranji, Kota Padang — Terdiri dari 8 RW yang dilayani BSU Ampang Saiyo</p></div>
-        <div class="maps-container">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15956.0!2d100.395!3d-0.915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b9a3dceb3d67%3A0x4c3e8e7d0e1b5d3e!2sAmpang%2C%20Kuranji%2C%20Padang%20City%2C%20West%20Sumatra!5e0!3m2!1sid!2sid!4v1717000000000!5m2!1sid!2sid" width="100%" height="400" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="google-maps-wilayah" title="Batas Wilayah Kelurahan Ampang"></iframe>
-        </div>
+      <div style="display: flex; justify-content: center; margin-top: 2rem;">
+        <img src="images/jadwal.jpg" alt="Jadwal Penimbangan" style="max-width: 100%; border-radius: 16px; box-shadow: var(--shadow-lg);" />
       </div>
     </div>
   </section>
@@ -676,8 +1333,9 @@
     <div class="container">
       <div class="section-header" id="org-header">
         <div class="section-label">Struktur Organisasi</div>
-        <h2 class="section-title">Struktur Organisasi<br/>BSU Ampang Saiyo Mandiri</h2>
-        <p class="section-desc">Pengurus yang menggerakkan pengelolaan sampah berbasis masyarakat di Kelurahan Ampang.</p>
+        <h2 class="section-title">Struktur Organisasi<br />Bank Sampah Ampang Saiyo Mandiri</h2>
+        <p class="section-desc">Pengurus yang menggerakkan pengelolaan sampah berbasis masyarakat di Kelurahan Ampang.
+        </p>
       </div>
 
       <!-- Org Chart Tree -->
@@ -685,7 +1343,9 @@
         <!-- Top Level: Direktur -->
         <div class="org-level org-level-top">
           <div class="org-card org-direktur" id="org-direktur">
-            <div class="org-avatar"><svg class="icon icon-xl"><use href="#icon-award"/></svg></div>
+            <div class="org-avatar" style="overflow: hidden; padding: 0;">
+              <img src="images/manfaat_lingkungan.jpg" alt="Direktur" style="width: 100%; height: 100%; object-fit: cover;" />
+            </div>
             <h3>Direktur</h3>
             <p class="org-name">Nora Fitriawati, S.Sos, MM</p>
           </div>
@@ -695,7 +1355,9 @@
         <!-- Level 2: Wakil Direktur -->
         <div class="org-level">
           <div class="org-card org-wakil" id="org-wakil-direktur">
-            <div class="org-avatar"><svg class="icon icon-xl"><use href="#icon-star"/></svg></div>
+            <div class="org-avatar" style="overflow: hidden; padding: 0;">
+              <img src="images/manfaat_sembako.jpg" alt="Wakil Direktur" style="width: 100%; height: 100%; object-fit: cover;" />
+            </div>
             <h3>Wakil Direktur</h3>
             <p class="org-name">Lisda Mainawari</p>
           </div>
@@ -706,68 +1368,61 @@
         <div class="org-level org-level-dual">
           <div class="org-branch">
             <div class="org-card org-sekretaris" id="org-sekretaris">
-              <div class="org-avatar"><svg class="icon icon-xl"><use href="#icon-laptop"/></svg></div>
+              <div class="org-avatar" style="overflow: hidden; padding: 0;">
+                <img src="images/sampah_organik.jpg" alt="Sekretaris" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
               <h3>Sekretaris</h3>
               <p class="org-name">Restian Bachtiar</p>
-            </div>
-            <div class="org-sub-card" id="org-wakil-sekretaris">
-              <span class="org-sub-role">Wakil Sekretaris</span>
-              <p class="org-name">Nila Silvia, S.Pd</p>
             </div>
           </div>
           <div class="org-branch">
             <div class="org-card org-bendahara" id="org-bendahara">
-              <div class="org-avatar"><svg class="icon icon-xl"><use href="#icon-savings"/></svg></div>
+              <div class="org-avatar" style="overflow: hidden; padding: 0;">
+                <img src="images/sampah_anorganik.jpg" alt="Bendahara" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
               <h3>Bendahara</h3>
               <p class="org-name">Desni</p>
             </div>
-            <div class="org-sub-card" id="org-wakil-bendahara">
+            <div class="org-connector-v" style="height: 15px; background: linear-gradient(180deg, var(--amber), var(--green-300));"></div>
+            <div class="org-sub-card" id="org-wakil-bendahara" style="width: 100%; border-color: var(--amber);">
               <span class="org-sub-role">Wakil Bendahara</span>
               <p class="org-name">Zedria Mursi, A.Md</p>
             </div>
           </div>
         </div>
-        <div class="org-connector-v"></div>
+      </div>
 
-        <!-- Level 4: Manajer-Manajer -->
-        <div class="org-level org-level-managers">
-          <!-- Manajer Operasional -->
-          <div class="org-manager-block" id="org-manajer-ops">
-            <div class="org-card org-manajer">
-              <div class="org-avatar org-avatar-ops"><svg class="icon icon-xl"><use href="#icon-recycle2"/></svg></div>
-              <h3>Manajer Operasional</h3>
-              <p class="org-name">H. Salvia Miral</p>
-            </div>
-            <div class="org-bidang-list">
-              <div class="org-bidang-item"><svg class="icon icon-xs"><use href="#icon-check"/></svg> Bid. Penimbangan & Pencatatan</div>
-              <div class="org-bidang-item"><svg class="icon icon-xs"><use href="#icon-check"/></svg> Bid. Pengambilan Sampah</div>
-            </div>
+      <!-- ===== DAFTAR PETUGAS PIKET ===== -->
+      <div class="piket-section" id="piket-section">
+        <div class="piket-header">
+          <div class="piket-title-group">
+            <svg class="icon icon-md"><use href="#icon-id-card" /></svg>
+            <h3 class="piket-title">Daftar Petugas Piket</h3>
           </div>
-
-          <!-- Manajer SDM -->
-          <div class="org-manager-block" id="org-manajer-sdm">
-            <div class="org-card org-manajer">
-              <div class="org-avatar org-avatar-sdm"><svg class="icon icon-xl"><use href="#icon-people"/></svg></div>
-              <h3>Manajer SDM</h3>
-              <p class="org-name">Mochammad Ridha</p>
-            </div>
-            <div class="org-bidang-list">
-              <div class="org-bidang-item"><svg class="icon icon-xs"><use href="#icon-check"/></svg> Bid. Pendidikan & Pelatihan</div>
-              <div class="org-bidang-item"><svg class="icon icon-xs"><use href="#icon-check"/></svg> Bid. Daur Ulang</div>
-            </div>
+          <div class="piket-filter">
+            <label for="piket-year-filter">Tahun:</label>
+            <select id="piket-year-filter" class="piket-select">
+              <option value="2025" selected>2025</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+            </select>
           </div>
-
-          <!-- Manajer Pemasaran -->
-          <div class="org-manager-block" id="org-manajer-pemasaran">
-            <div class="org-card org-manajer">
-              <div class="org-avatar org-avatar-pemasaran"><svg class="icon icon-xl"><use href="#icon-globe"/></svg></div>
-              <h3>Manajer Pemasaran</h3>
-              <p class="org-name">Kasmarni</p>
-            </div>
-            <div class="org-bidang-list">
-              <div class="org-bidang-item"><svg class="icon icon-xs"><use href="#icon-check"/></svg> Bid. Komunikasi & Publikasi</div>
-              <div class="org-bidang-item"><svg class="icon icon-xs"><use href="#icon-check"/></svg> Bid. Kerjasama & Kemitraan</div>
-            </div>
+        </div>
+        <div class="piket-table-wrap">
+          <table class="piket-table" id="piket-table">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Nama Petugas</th>
+              </tr>
+            </thead>
+            <tbody id="piket-tbody">
+              <!-- Data diisi via JS -->
+            </tbody>
+          </table>
+          <div class="piket-empty" id="piket-empty" style="display:none;">
+            <svg class="icon icon-xl" style="color: var(--gray-400);"><use href="#icon-id-card" /></svg>
+            <p>Belum ada data petugas piket untuk tahun ini.</p>
           </div>
         </div>
       </div>
@@ -777,21 +1432,76 @@
   <!-- ===== STATISTIK DAMPAK + DASHBOARD ===== -->
   <section class="section-statistik" id="statistik">
     <div class="container">
-      <div class="section-header" id="stat-header"><div class="section-label">Dampak Nyata</div><h2 class="section-title">Angka yang Berbicara</h2><p class="section-desc">Bersama masyarakat Ampang, kami telah menciptakan dampak lingkungan dan ekonomi yang terukur.</p></div>
+      <div class="section-header" id="stat-header">
+        <div class="section-label">Dampak Nyata</div>
+        <h2 class="section-title">Angka yang Berbicara</h2>
+        <p class="section-desc">Bersama masyarakat Ampang, kami telah menciptakan dampak lingkungan dan ekonomi yang
+          terukur.</p>
+      </div>
       <div class="stat-cards">
-        <div class="stat-card" id="sc-1"><div class="stat-icon"><svg class="icon icon-xl"><use href="#icon-people"/></svg></div><div class="stat-number" data-count="175">0</div><div class="stat-suffix">+ Nasabah</div><div class="stat-label">Aktif Menabung</div></div>
-        <div class="stat-card" id="sc-2"><div class="stat-icon"><svg class="icon icon-xl"><use href="#icon-trash"/></svg></div><div class="stat-number" data-count="1">0</div><div class="stat-suffix"> Ton/Bulan</div><div class="stat-label">Sampah Terkelola</div></div>
-        <div class="stat-card" id="sc-3"><div class="stat-icon"><svg class="icon icon-xl"><use href="#icon-savings"/></svg></div><div class="stat-number" data-count="150">0</div><div class="stat-suffix"> Juta</div><div class="stat-label">Nilai Tabungan Nasabah</div></div>
-        <div class="stat-card" id="sc-4"><div class="stat-icon"><svg class="icon icon-xl"><use href="#icon-village"/></svg></div><div class="stat-number" data-count="8">0</div><div class="stat-suffix"> RW</div><div class="stat-label">Wilayah Terlayani</div></div>
+        <div class="stat-card" id="sc-1">
+          <div class="stat-icon"><svg class="icon icon-xl">
+              <use href="#icon-people" />
+            </svg></div>
+          <div class="stat-number" data-count="187">0</div>
+          <div class="stat-suffix">+ Nasabah</div>
+          <div class="stat-label">Aktif Menabung</div>
+        </div>
+        <div class="stat-card" id="sc-2">
+          <div class="stat-icon"><svg class="icon icon-xl">
+              <use href="#icon-trash" />
+            </svg></div>
+          <div class="stat-number" data-count="1-2">0</div>
+          <div class="stat-suffix"> Ton/Bulan</div>
+          <div class="stat-label">Sampah Terkelola</div>
+        </div>
+        <div class="stat-card" id="sc-3">
+          <div class="stat-icon"><svg class="icon icon-xl">
+              <use href="#icon-village" />
+            </svg></div>
+          <div class="stat-number" data-count="9">0</div>
+          <div class="stat-suffix"> RW</div>
+          <div class="stat-label">Wilayah Terlayani</div>
+        </div>
+        <div class="stat-card" id="sc-4">
+          <div class="stat-icon"><svg class="icon icon-xl">
+              <use href="#icon-recycle" />
+            </svg></div>
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-suffix"> Jenis</div>
+          <div class="stat-label">Sampah Diterima</div>
+        </div>
       </div>
       <div class="dashboard-wrap" id="dashboard-wrap">
         <div class="dashboard-header">
-          <h3 class="dashboard-title"><svg class="icon icon-md"><use href="#icon-trending"/></svg> Dashboard Tren Tahunan</h3>
-          <p class="dashboard-subtitle">Data perkembangan BSU Ampang Saiyo dari tahun 2023 hingga Juli 2025</p>
+          <div class="section-label" style="margin-bottom: 0.4rem;">Monitoring &amp; Analytics</div>
+          <h3 class="dashboard-title"><svg class="icon icon-md">
+              <use href="#icon-trending" />
+            </svg> Dashboard Perkembangan &amp; Sebaran Nasabah</h3>
+          <p class="dashboard-subtitle">Data tren perkembangan dan distribusi wilayah Bank Sampah Ampang Saiyo Mandiri (2023 – 2025)</p>
         </div>
         <div class="dashboard-grid">
-          <div class="chart-card" id="chart-nasabah-card"><h4>📈 Pertumbuhan Nasabah</h4><div class="chart-container"><canvas id="chart-nasabah"></canvas></div></div>
-          <div class="chart-card" id="chart-sampah-card"><h4>📊 Perolehan Sampah (Kg)</h4><div class="chart-container"><canvas id="chart-sampah"></canvas></div></div>
+          <div class="chart-card" id="chart-nasabah-card">
+            <div class="chart-card-header">
+              <span class="chart-tag tag-green">📈 Pertumbuhan</span>
+              <h4>Nasabah Aktif</h4>
+            </div>
+            <div class="chart-container"><canvas id="chart-nasabah"></canvas></div>
+          </div>
+          <div class="chart-card" id="chart-sampah-card">
+            <div class="chart-card-header">
+              <span class="chart-tag tag-blue">📊 Volume Sampah</span>
+              <h4>Perolehan Sampah (Kg)</h4>
+            </div>
+            <div class="chart-container"><canvas id="chart-sampah"></canvas></div>
+          </div>
+          <div class="chart-card" id="chart-asal-card">
+            <div class="chart-card-header">
+              <span class="chart-tag tag-amber">📍 Sebaran Wilayah</span>
+              <h4>Asal Nasabah (per RW)</h4>
+            </div>
+            <div class="chart-container"><canvas id="chart-asal"></canvas></div>
+          </div>
         </div>
       </div>
     </div>
@@ -800,16 +1510,85 @@
   <!-- ===== MITRA KAMI ===== -->
   <section class="section-mitra" id="mitra">
     <div class="container">
-      <div class="section-header" id="mitra-header"><div class="section-label light">Kemitraan</div><h2 class="section-title light">Mitra Kami</h2><p class="section-desc light">Didukung oleh berbagai pihak yang berkomitmen untuk lingkungan yang lebih baik.</p></div>
+      <div class="section-header" id="mitra-header">
+        <div class="section-label light">Kemitraan</div>
+        <h2 class="section-title light">Mitra Kami</h2>
+        <p class="section-desc light">Didukung oleh berbagai pihak yang berkomitmen untuk lingkungan yang lebih baik.
+        </p>
+      </div>
       <div class="mitra-grid">
-        <div class="mitra-card" id="mitra-1"><div class="mitra-logo-wrap"><img src="images/logos/karang_taruna.png" alt="Logo Karang Taruna" class="mitra-logo-img" /></div><h4>Karang Taruna</h4><p>Ampang Saiyo</p></div>
-        <div class="mitra-card" id="mitra-2"><div class="mitra-logo-wrap"><img src="images/logos/semen_padang.png" alt="Logo Semen Padang" class="mitra-logo-img" /></div><h4>Semen Padang</h4><p>PT Semen Padang</p></div>
-        <div class="mitra-card" id="mitra-3"><div class="mitra-logo-wrap"><img src="images/logos/universitas_andalas.png" alt="Logo Universitas Andalas" class="mitra-logo-img" /></div><h4>Universitas Andalas</h4><p>Perguruan Tinggi</p></div>
-        <div class="mitra-card" id="mitra-4"><div class="mitra-logo-wrap"><img src="images/logos/asobsi.png" alt="Logo ASOBSI" class="mitra-logo-img" /></div><h4>ASOBSI</h4><p>Asosiasi Bank Sampah Indonesia</p></div>
-        <div class="mitra-card" id="mitra-5"><div class="mitra-logo-wrap"><img src="images/logos/kota_padang.png" alt="Logo Kota Padang" class="mitra-logo-img" /></div><h4>Pemkot Padang</h4><p>Pemerintah Kota Padang</p></div>
-        <div class="mitra-card" id="mitra-6"><div class="mitra-logo-wrap"><img src="images/logos/prov_sumbar.png" alt="Logo Provinsi Sumatera Barat" class="mitra-logo-img" /></div><h4>Pemprov Sumbar</h4><p>Pemerintah Sumatera Barat</p></div>
-        <div class="mitra-card" id="mitra-7"><div class="mitra-logo-wrap"><img src="images/logos/pln.png" alt="Logo PLN" class="mitra-logo-img" /></div><h4>PLN</h4><p>CSR & Kemitraan</p></div>
-        <div class="mitra-card" id="mitra-8"><div class="mitra-logo-wrap"><img src="images/logos/klhk.png" alt="Logo Kementerian Lingkungan Hidup" class="mitra-logo-img" /></div><h4>KLHK</h4><p>Kementerian Lingkungan Hidup</p></div>
+        <!-- 1. Karang Taruna -->
+        <div class="mitra-card" id="mitra-1">
+          <div class="mitra-logo-wrap"><img src="images/logos/karang_taruna.png" alt="Logo Karang Taruna" class="mitra-logo-img" /></div>
+          <h4>Karang Taruna</h4>
+          <p>Ampang Saiyo</p>
+        </div>
+        <!-- 2. Kota Padang -->
+        <div class="mitra-card" id="mitra-2">
+          <div class="mitra-logo-wrap"><img src="images/logos/kota_padang.png" alt="Logo Kota Padang" class="mitra-logo-img" /></div>
+          <h4>Pemko Padang</h4>
+          <p>Pemerintah Kota Padang</p>
+        </div>
+        <!-- 3. Provinsi Sumbar -->
+        <div class="mitra-card" id="mitra-3">
+          <div class="mitra-logo-wrap"><img src="images/logos/prov_sumbar.png" alt="Logo Provinsi Sumatera Barat" class="mitra-logo-img" /></div>
+          <h4>Pemprov Sumbar</h4>
+          <p>Pemerintah Sumatera Barat</p>
+        </div>
+        <!-- 4. PT PLN -->
+        <div class="mitra-card" id="mitra-4">
+          <div class="mitra-logo-wrap"><img src="images/logos/pln.png" alt="Logo PLN" class="mitra-logo-img" /></div>
+          <h4>PLN</h4>
+          <p>CSR & Kemitraan</p>
+        </div>
+        <!-- 5. PT Semen Padang -->
+        <div class="mitra-card" id="mitra-5">
+          <div class="mitra-logo-wrap"><img src="images/logos/semen_padang.png" alt="Logo Semen Padang" class="mitra-logo-img" /></div>
+          <h4>Semen Padang</h4>
+          <p>PT Semen Padang</p>
+        </div>
+        <!-- 6. ASOBSI -->
+        <div class="mitra-card" id="mitra-6">
+          <div class="mitra-logo-wrap"><img src="images/logos/asobsi.png" alt="Logo ASOBSI" class="mitra-logo-img" /></div>
+          <h4>ASOBSI</h4>
+          <p>Asosiasi Bank Sampah Indonesia</p>
+        </div>
+        <!-- 7. UNAND -->
+        <div class="mitra-card" id="mitra-7">
+          <div class="mitra-logo-wrap"><img src="images/logos/universitas_andalas.png" alt="Logo Universitas Andalas" class="mitra-logo-img" /></div>
+          <h4>Universitas Andalas</h4>
+          <p>Perguruan Tinggi</p>
+        </div>
+        <!-- 8. KEMEN LH (tanpa tulisan) -->
+        <div class="mitra-card" id="mitra-8">
+          <div class="mitra-logo-wrap"><img src="images/logos/klhk.jpg" alt="Logo Kementerian Lingkungan Hidup" class="mitra-logo-img" /></div>
+          <h4>KEMEN LH</h4>
+          <p>Kementerian Lingkungan Hidup</p> 
+        </div>
+        <!-- 9. Griya Luhu -->
+        <div class="mitra-card" id="mitra-9">
+          <div class="mitra-logo-wrap"><img src="images/logos/Griya_Luhu.png" alt="Logo Griya Luhu" class="mitra-logo-img" /></div>
+          <h4>Griya Luhu</h4>
+          <p>Komunitas Lingkungan</p>
+        </div>
+        <!-- 10. MCD -->
+        <div class="mitra-card" id="mitra-10">
+          <div class="mitra-logo-wrap"><img src="images/logos/mcd.png" alt="Logo MCD" class="mitra-logo-img" /></div>
+          <h4>McDonald </h4>
+          <p>Mitra Kemitraan</p>
+        </div>
+        <!-- 11. BPVP Padang -->
+        <div class="mitra-card" id="mitra-11">
+          <div class="mitra-logo-wrap"><img src="images/logos/bpvp.png" alt="Logo BPVP Padang" class="mitra-logo-img" /></div>
+          <h4>BPVP Padang</h4>
+          <p>Balai Pelatihan Vokasi</p>
+        </div>
+        <!-- 12. RRI Padang -->
+        <div class="mitra-card" id="mitra-12">
+          <div class="mitra-logo-wrap"><img src="images/logos/rri.webp" alt="Logo RRI Padang" class="mitra-logo-img" /></div>
+          <h4>RRI Padang</h4>
+          <p>Radio Republik Indonesia</p>
+        </div>
       </div>
     </div>
   </section>
@@ -817,10 +1596,29 @@
   <!-- ===== TESTIMONI ===== -->
   <section class="section-testimoni" id="testimoni">
     <div class="container">
-      <div class="section-header" id="testi-header"><div class="section-label">Kata Mereka</div><h2 class="section-title">Suara Masyarakat Ampang</h2></div>
+      <div class="section-header" id="testi-header">
+        <div class="section-label">Kata Mereka</div>
+        <h2 class="section-title">Suara Masyarakat Ampang</h2>
+      </div>
       <div class="testi-grid">
-        <div class="testi-card" id="tc-1"><div class="testi-quote">"</div><p>Sekarang kami tidak buang sampah sembarangan lagi. Setoran sampah tiap bulan bisa buat beli kebutuhan dapur keluarga. Terima kasih BSU Ampang Saiyo!</p><div class="testi-author"><div class="testi-avatar" style="background: #76C442;">IR</div><div><strong>Ibu Rahmi</strong><span>Nasabah, RT 03 Ampang</span></div></div></div>
-        <div class="testi-card" id="tc-3"><div class="testi-quote">"</div><p>Pelatihan kompos Takakura yang kami ikuti sangat bermanfaat. Sekarang sampah dapur jadi pupuk tanaman sendiri. Lingkungan lebih bersih, hati lebih tenang.</p><div class="testi-author"><div class="testi-avatar" style="background: #1B5E20; color: #fff;">DS</div><div><strong>Desi Suryani</strong><span>Peserta Pelatihan Takakura</span></div></div></div>
+        <div class="testi-card" id="tc-1">
+          <div class="testi-quote">"</div>
+          <p>Sekarang kami tidak buang sampah sembarangan lagi. Setoran sampah tiap bulan bisa buat beli kebutuhan dapur
+            keluarga. Terima kasih Bank Sampah Ampang Saiyo Mandiri!</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: #76C442;">IR</div>
+            <div><strong>Ibu Rahmi</strong><span>Nasabah, RT 03 Ampang</span></div>
+          </div>
+        </div>
+        <div class="testi-card" id="tc-3">
+          <div class="testi-quote">"</div>
+          <p>Pelatihan kompos Takakura yang kami ikuti sangat bermanfaat. Sekarang sampah dapur jadi pupuk tanaman
+            sendiri. Lingkungan lebih bersih, hati lebih tenang.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: #1B5E20; color: #fff;">DS</div>
+            <div><strong>Desi Suryani</strong><span>Peserta Pelatihan Takakura</span></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -828,18 +1626,43 @@
   <!-- ===== KONTAK ===== -->
   <section class="section-kontak" id="kontak">
     <div class="wave-divider top">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 C360,0 1080,0 1440,60 L1440,0 L0,0 Z" fill="var(--green-50)"/></svg>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C360,0 1080,0 1440,60 L1440,0 L0,0 Z" fill="var(--green-50)" />
+      </svg>
     </div>
     <div class="container kontak-wrap">
       <div class="kontak-info" id="kontak-info">
         <div class="section-label light">Hubungi Kami</div>
-        <h2 class="section-title light">Mari Bergabung<br/>Bersama Kami!</h2>
-        <p style="color:rgba(255,255,255,0.85); margin-bottom: 2rem;">Hubungi kami untuk informasi lebih lanjut tentang program, jadwal penimbangan, dan layanan BSU Ampang Saiyo.</p>
+        <h2 class="section-title light">Mari Bergabung<br />Bersama Kami!</h2>
+        <p style="color:rgba(255,255,255,0.85); margin-bottom: 2rem;">Hubungi kami untuk informasi lebih lanjut tentang
+          program, jadwal penimbangan, dan layanan Bank Sampah Ampang Saiyo Mandiri.</p>
         <div class="kontak-items">
-          <div class="kontak-item" id="ki-1"><div class="kontak-icon"><svg class="icon icon-md"><use href="#icon-pin"/></svg></div><div><strong>Alamat Kantor</strong><p>Jl. Raya Ampang, RT.01/RW.02, Ampang, Kec. Kuranji, Kota Padang, Sumatera Barat 25154</p></div></div>
-          <div class="kontak-item" id="ki-2"><div class="kontak-icon"><svg class="icon icon-md"><use href="#icon-clock"/></svg></div><div><strong>Jadwal Penimbangan</strong><p><svg class="icon icon-xs" style="vertical-align:middle"><use href="#icon-building"/></svg> <strong>Kamis</strong> - di Kantor: 14.00-16.00 WIB<br/><svg class="icon icon-xs" style="vertical-align:middle"><use href="#icon-van"/></svg> <strong>Sabtu &amp; Minggu</strong> - Keliling RW: 14.00-16.00 WIB</p></div></div>
-          <div class="kontak-item" id="ki-3"><div class="kontak-icon"><svg class="icon icon-md"><use href="#icon-phone"/></svg></div><div><strong>WhatsApp</strong><p><a href="https://wa.me/6285381665945" target="_blank">085381665945</a></p></div></div>
-          <div class="kontak-item" id="ki-4"><div class="kontak-icon"><svg class="icon icon-md"><use href="#icon-globe"/></svg></div><div><strong>Media Sosial</strong><p>Instagram: <a href="https://www.instagram.com/bsu_ampangsaiyomandiri" target="_blank">@bsu_ampangsaiyomandiri</a><br/>TikTok: <a href="https://www.tiktok.com/@bsu_ampangsaiyomandiri" target="_blank">@bsu_ampangsaiyomandiri</a></p></div></div>
+          <div class="kontak-item" id="ki-1">
+            <div class="kontak-icon"><svg class="icon icon-md">
+                <use href="#icon-pin" />
+              </svg></div>
+            <div><strong>Alamat Kantor</strong>
+              <p>Jl. Raya Ampang, RT.01/RW.02, Ampang, Kec. Kuranji, Kota Padang, Sumatera Barat 25154</p>
+            </div>
+          </div>
+          <div class="kontak-item" id="ki-3">
+            <div class="kontak-icon"><svg class="icon icon-md">
+                <use href="#icon-phone" />
+              </svg></div>
+            <div><strong>WhatsApp</strong>
+              <p><a href="https://wa.me/6285381665945" target="_blank">085381665945</a></p>
+            </div>
+          </div>
+          <div class="kontak-item" id="ki-4">
+            <div class="kontak-icon"><svg class="icon icon-md">
+                <use href="#icon-globe" />
+              </svg></div>
+            <div><strong>Media Sosial</strong>
+              <p>Instagram: <a href="https://www.instagram.com/bsu_ampangsaiyomandiri"
+                  target="_blank">@bsu_ampangsaiyomandiri</a><br />TikTok: <a
+                  href="https://www.tiktok.com/@bsu_ampangsaiyomandiri" target="_blank">@bsu_ampangsaiyomandiri</a></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -848,20 +1671,66 @@
   <!-- ===== FOOTER ===== -->
   <footer class="footer" id="footer">
     <div class="container footer-grid">
-      <div class="footer-brand"><img src="images/logo_bsu.png" alt="Logo BSU Ampang Saiyo" class="footer-logo" /><p class="footer-tagline">Memilah Sampah<br/>Menjadi Berharga</p><p class="footer-desc">Bank Sampah Unit Ampang Saiyo - Motor penggerak ekonomi sirkular di Kelurahan Ampang, Kota Padang.</p></div>
-      <div class="footer-links"><h4>Navigasi</h4><ul><li><a href="#beranda">Beranda</a></li><li><a href="#tentang">Tentang Kami</a></li><li><a href="#edukasi">Edukasi</a></li><li><a href="#layanan">Layanan</a></li><li><a href="#mitra">Mitra</a></li><li><a href="#kontak">Kontak</a></li></ul></div>
-      <div class="footer-links"><h4>Program</h4><ul><li><a href="#alur">Tabungan Sampah</a></li><li><a href="#program">Kompos Takakura</a></li><li><a href="#program">Padang Memilah</a></li><li><a href="#produk">Produk Olahan</a></li></ul></div>
-      <div class="footer-moto"><h4>Moto Kami</h4><blockquote class="footer-quote">"Sampah bukan akhir, sampah adalah awal dari sesuatu yang berharga."</blockquote><div class="footer-social"><span>Ikuti Kami:</span><div class="social-links"><a href="https://wa.me/6285381665945" target="_blank" class="social-btn" title="WhatsApp">WA</a><a href="https://www.instagram.com/bsu_ampangsaiyomandiri" target="_blank" class="social-btn" title="Instagram">IG</a><a href="https://www.tiktok.com/@bsu_ampangsaiyomandiri" target="_blank" class="social-btn" title="TikTok">TT</a></div></div></div>
+      <div class="footer-brand"><img src="images/logo_bsu.png" alt="Logo Bank Sampah Ampang Saiyo Mandiri" class="footer-logo" />
+        <p class="footer-tagline">Memilah Sampah<br />Menjadi Berharga</p>
+        <p class="footer-desc">Bank Sampah Ampang Saiyo Mandiri - Motor penggerak ekonomi sirkular di Kelurahan Ampang,
+          Kota Padang.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#edukasi">Edukasi</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#mitra">Mitra</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Program</h4>
+        <ul>
+          <li><a href="#alur">Tabungan Sampah</a></li>
+          <li><a href="#program">Kompos Takakura</a></li>
+          <li><a href="#program">Padang Memilah</a></li>
+          <li><a href="#produk">Produk Olahan</a></li>
+        </ul>
+      </div>
+      <div class="footer-moto">
+        <h4>Moto Kami</h4>
+        <blockquote class="footer-quote">"Sampah bukan akhir, sampah adalah awal dari sesuatu yang berharga."
+        </blockquote>
+        <div class="footer-social"><span>Ikuti Kami:</span>
+          <div class="social-links"><a href="https://wa.me/6285381665945" target="_blank" class="social-btn"
+              title="WhatsApp">WA</a><a href="https://www.instagram.com/bsu_ampangsaiyomandiri" target="_blank"
+              class="social-btn" title="Instagram">IG</a><a href="https://www.tiktok.com/@bsu_ampangsaiyomandiri"
+              target="_blank" class="social-btn" title="TikTok">TT</a></div>
+        </div>
+      </div>
     </div>
-    <div class="footer-bottom"><div class="container footer-bottom-inner"><p>&copy; 2026 BSU Ampang Saiyo Mandiri. Semua Hak Dilindungi.</p><p>Kelurahan Ampang, Kecamatan Kuranji, Kota Padang, Sumatera Barat</p></div></div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Bank Sampah Ampang Saiyo Mandiri. Semua Hak Dilindungi.</p>
+        <p>Kelurahan Ampang, Kecamatan Kuranji, Kota Padang, Sumatera Barat</p>
+      </div>
+    </div>
   </footer>
 
   <!-- Lightbox -->
-  <div class="lightbox-overlay" id="lightbox-overlay"><button class="lightbox-close" id="lightbox-close" aria-label="Tutup galeri"><svg class="icon"><use href="#icon-x"/></svg></button><div class="lightbox-content" id="lightbox-content"><img src="" alt="Galeri foto" class="lightbox-img" id="lightbox-img" /></div></div>
+  <div class="lightbox-overlay" id="lightbox-overlay"><button class="lightbox-close" id="lightbox-close"
+      aria-label="Tutup galeri"><svg class="icon">
+        <use href="#icon-x" />
+      </svg></button>
+    <div class="lightbox-content" id="lightbox-content"><img src="" alt="Galeri foto" class="lightbox-img"
+        id="lightbox-img" /></div>
+  </div>
 
-  <button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas"><svg class="icon"><use href="#icon-arrow-up"/></svg></button>
+  <button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas"><svg class="icon">
+      <use href="#icon-arrow-up" />
+    </svg></button>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
